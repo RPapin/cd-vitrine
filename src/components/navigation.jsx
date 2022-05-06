@@ -16,9 +16,8 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
           </button>
           <a className='navbar-brand page-scroll' href='#page-top'>
-            <img src="img/logo-chloe-deschamps-comportementaliste_edited.webp" alt="aa"></img>
-          </a>{' '}
-          
+            <img src="img/logo-chloe-deschamps-comportementaliste.webp" alt="Chloé Deschamps"></img>
+          </a>
         </div>
 
         <div

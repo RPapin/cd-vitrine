@@ -208,12 +208,13 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/header/02072020-ILY_1978.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  /* word-break: break-word; */
 }
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
@@ -221,11 +222,12 @@ a:focus,
 .intro h1 {
   font-family: "Raleway", sans-serif;
   color: #fff;
-  font-size: 82px;
+  font-size: 70px;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 10px;
+  opacity: 0.9;
 }
 .intro h1 span {
   font-weight: 800;
@@ -602,5 +604,17 @@ label {
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
+  }
+  .navbar-header a {
+    padding: 0;
+  }
+  .navbar {
+    min-height: 100px;
+  }
+}
+
+@media (max-width: 1220px) and (min-width: 768px) {
+  .navbar-header img {
+    display: none;
   }
 }
