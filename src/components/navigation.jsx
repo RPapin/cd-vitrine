@@ -1,3 +1,4 @@
+import './navigation.scss'
 export const Navigation = (props) => {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
@@ -15,8 +16,9 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
           </button>
-          <a className='navbar-brand page-scroll' href='#page-top'>
-            <img src="img/logo-chloe-deschamps-comportementaliste.png" alt="Chloé Deschamps"></img>
+          <a className='navbar-brand page-scroll' href='#page-top'> 
+            <img src="img/logo_dessin.png" alt="Chloé Deschamps Dessin" className="img-responsive" id="logo-dessin"></img>
+            <img src="img/logo_ecrit.png" alt="Chloé Deschamps" className="img-responsive" id="logo-ecrit"></img>
           </a>
         </div>
 
@@ -27,22 +29,17 @@ export const Navigation = (props) => {
           <ul className='nav navbar-nav navbar-right'>
             <li>
               <a href='#features' className='page-scroll'>
-                Features
+                Qui suis-je
               </a>
             </li>
             <li>
               <a href='#about' className='page-scroll'>
-                About
+                Prestations
               </a>
             </li>
             <li>
               <a href='#services' className='page-scroll'>
-                Services
-              </a>
-            </li>
-            <li>
-              <a href='#portfolio' className='page-scroll'>
-                Gallery
+                Reservation
               </a>
             </li>
             <li>
@@ -52,7 +49,7 @@ export const Navigation = (props) => {
             </li>
             <li>
               <a href='#team' className='page-scroll'>
-                Team
+                Team partenaires
               </a>
             </li>
             <li>

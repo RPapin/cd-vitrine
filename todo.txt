@@ -1,11 +1,11 @@
 Logo icon (onglet) voir pour rond et sans fond blan
 
-Voir AWS pour mettre en ligne.
 Navigation :
-Présentation => Parrallax 
+Présentation => Parrallax + img header responsive
+
 Prestation =>  
 Plateforme en ligne (Vidéo payante => formation )  
-2eme ligne = lien apres avantate dans chaque bulle
+2eme ligne = lien apres avantage dans chaque bulle
 Contact
 Avis - Retour de séance => gallerie Mettre btn retour
 Partenaires  

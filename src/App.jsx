@@ -28,7 +28,7 @@ const App = () => {
     <div>
       
       <Navigation />
-      <Gift/>
+      {/* <Gift/> */}
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
