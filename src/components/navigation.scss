@@ -6,4 +6,15 @@
 }
 .navbar-brand {
     display: flex;
+    height: 62px;
+    padding: 0;
+}
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+@media (min-width: 1200px){
+    .container {
+        width: 1200px;
+    }
 }

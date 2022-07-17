@@ -208,7 +208,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/header/02072020-ILY_1978.jpg) center center no-repeat;
+  background: url(../img/header/02072020-ILY_1978.jpg) center center no-repeat;/*../img/header/02072020-ILY_1978.jpg*/
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -602,6 +602,9 @@ label {
 }
 
 @media (max-width: 768px) {
+  .intro-text h1 {
+    font-size: 30px;
+  }
   #about img {
     margin: 50px 0;
   }
