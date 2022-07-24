@@ -1,0 +1,64 @@
+#prestation {
+    background: #f6f6f6;
+}
+
+#prestation .frame-container {
+    padding: 3rem 0;
+    .title span {
+        font-family: 'Dancing Script', cursive;
+        font-size: 47px;
+    }
+
+    .sub-title p{
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 30px;
+    }    
+}
+.frame-list {
+    padding: 1rem 5rem;
+    text-align: start;
+    .list-item {
+        margin: 1rem 0;
+    }
+    .list-number {
+        display: inline-block;
+        min-width: 30px;
+        font-size: 47px;
+        line-height: 1.1em;
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        color: rgb(222,80,33);
+        margin-right: 5rem;
+    }
+}
+.tarif {
+    margin-top: 2rem;
+}
+.btn-success {
+    font-family: Raleway-SemiBold;
+    font-size: 2rem;
+    color: rgb(222,80,33);
+    letter-spacing: 1px;
+    line-height: 15px;
+    border: 2px solid rgb(222,80,33);
+    border-radius: 40px;
+    background: transparent;
+    transition: all 0.3s ease 0s;
+    padding: 1.5rem;
+    cursor: default;
+  }
+  
+.btn-success:hover, .accompagnement .btn-success:hover {
+    color: #FFF;
+    background: #d0cdcd;
+    border: 2px solid #d0cdcd;
+}
+
+.accompagnement .frame-list .list-number {
+    color: #3D9BE9;
+}
+.accompagnement .btn-success {
+    color: #3D9BE9;
+    border: 2px solid #3D9BE9;
+}

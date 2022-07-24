@@ -3,6 +3,33 @@
     "title": "Comportementaliste équin à Lyon",
     "paragraph": "Spécialiste du comportement des équidés, je vous propose mes services pour construire avec votre animal une relation de confiance."
   },
+  "Prestation1": {
+    "sectionTitle": "Prestations",
+    "title1": "Bilan comportemental",
+    "paragraph": "Cette consultation permettra de faire un bilan du comportement de votre équidé et de définir sa ou ses problématique(s)",
+    "One": "Moment d'observation et d'échange autour de l'animal pour identifier sa problématique.",
+    "Two": "Analyse de son environnement, ses besoins fondamentaux, son état corporel, son expression faciale et de sa relation à l'humain.",
+    "Three": "Proposition de modifications environnementale pour améliorer son bien être psychologique et physique.",
+    "title2": "Tarif",
+    "fakeButton": "90€ / 1h30"
+  },
+  "Prestation2": {
+    "title1": "Accompagnement et suivi",
+    "paragraph": "Ces séances font suite au bilan comportemental et vous permettront de poursuivre l'accompagnement avec votre cheval",
+    "One": "Travail sur des points clés. Définition des objectifs précis",
+    "Two": "Amélioration du comportement en adaptant les méthodes d'apprentissage en fonction des équidés",
+    "Three": "Création d'émotions positives dans l'objectif d'établir une relation à l'humain saine",
+    "title2": "Tarif",
+    "fakeButton": "65€ / 1h"
+  },
+  "Contact": {
+    "address": "Lyon (69) et alentours",
+    "phone": "+1 123 456 1234",
+    "email": "contact@chloe-deschamps.fr",
+    "facebook": "fb.com",
+    "instagram": "https://www.instagram.com/fanielastaar/",
+    "youtube": "https://www.youtube.com/channel/UC-MJeni5yPtQmTUKzvJW7-A"
+  },
   "About": {
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "Why": [
@@ -151,14 +178,6 @@
       "job": "Project Manager"
     }
   ],
-  "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
-  },
   "Features": [
     {
       "icon": "fa fa-comments-o",
