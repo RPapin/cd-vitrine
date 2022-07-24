@@ -516,7 +516,7 @@ label {
   font-family: "Open Sans", sans-serif;
   float: left;
 }
-#contact .form-control {
+#contact .form-control-template {
   display: block;
   width: 100%;
   padding: 6px 12px;
@@ -533,22 +533,22 @@ label {
   -o-transition: none;
   transition: none;
 }
-#contact .form-control:focus {
+#contact .form-control-template:focus {
   border-color: #999;
   outline: 0;
   -webkit-box-shadow: transparent;
   box-shadow: transparent;
 }
-.form-control::-webkit-input-placeholder {
+.form-control-template::-webkit-input-placeholder {
   color: #777;
 }
-.form-control:-moz-placeholder {
+.form-control-template:-moz-placeholder {
   color: #777;
 }
-.form-control::-moz-placeholder {
+.form-control-template::-moz-placeholder {
   color: #777;
 }
-.form-control:-ms-input-placeholder {
+.form-control-template:-ms-input-placeholder {
   color: #777;
 }
 #contact .contact-item {
