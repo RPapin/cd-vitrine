@@ -11,13 +11,8 @@ const Gift = () => {
     const handleClose = () => setShow(false);
     useEffect( () => {
         
-        
-        console.log("useEffect");
         function handleKeyDown(e) {
-            
-            console.log(keyPressed);
             if(keyPressed.toString() === lastar_keycode.toString()){
-                console.log("SURPRISE");
                 setShow(true)
                 document.getElementById("btnToggleModal").click();
             }
