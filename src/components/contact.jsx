@@ -7,7 +7,7 @@ const initialState = {
   message: '',
 }
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState)
+  const [{ from_name, reply_to, message }, setState] = useState(initialState)
 
   const handleChange = (e) => {
     const { name, value } = e.target
@@ -17,10 +17,12 @@ export const Contact = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    console.log(name, email, message)
+    console.log(process.env)
+    console.log(from_name, reply_to, message)
+    
     emailjs
       .sendForm(
-        'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
+        process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_PUBLIC_KEY
       )
       .then(
         (result) => {
@@ -51,8 +53,8 @@ export const Contact = (props) => {
                     <div className='form-group'>
                       <input
                         type='text'
-                        id='name'
-                        name='name'
+                        id='from_name'
+                        name='from_name'
                         className='form-control'
                         placeholder='Name'
                         required
@@ -65,8 +67,8 @@ export const Contact = (props) => {
                     <div className='form-group'>
                       <input
                         type='email'
-                        id='email'
-                        name='email'
+                        id='reply_to'
+                        name='reply_to'
                         className='form-control'
                         placeholder='Email'
                         required
