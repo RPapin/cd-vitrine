@@ -40,7 +40,7 @@ export const Prestation = (props) => {
                 <span>{props.data.title2}</span>
             </div>
             <div className="tarif">
-                <span><button type="button" class="btn btn-success">{props.data.fakeButton}</button></span>
+                <span><button type="button" className="btn btn-success">{props.data.fakeButton}</button></span>
             </div>
           </div>
         </div>
