@@ -51,7 +51,7 @@ export const Contact = (props) => {
                 <p>
                   Si vous souhaitez prendre un rendez-vous, échanger avec moi sur votre problématique ou pour toute autre question, 
                   contactez-moi via ce formulaire ou par mail à : <br/>
-                  <span className='sp-email'>contact@chloe-deschamps.fr</span> et je vous répondrai au plus vite !
+                  <span className='sp-email'>contact@chloe-deschamps.com</span> et je vous répondrai au plus vite !
                 </p>
               </div>
               <form name='sentMessage' validate="true" onSubmit={handleSubmit}>

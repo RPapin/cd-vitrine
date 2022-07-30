@@ -1,11 +1,11 @@
-snackbar confirmation envoie mail / erreur
 
-Logo icon (onglet) voir pour rond et sans fond blan
+snackbar confirmation envoie mail => erreur
+ATTENTION TAILLE JPG ET PNG => temps de chargement
 
-Navigation :
-Présentation => 
- + img header responsive voir pour la height corresponde pile poil cf https://www.emiliefallet.fr/
+Logo icon (onglet) voir pour rond et sans fond blanc
 
+img HEADER responsive voir pour la height corresponde pile poil cf https://www.emiliefallet.fr/
+Handle resize ppur la navbar
 
 Prestation =>  
 Plateforme en ligne (Vidéo payante => formation )  

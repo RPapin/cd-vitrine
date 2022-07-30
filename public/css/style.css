@@ -104,7 +104,7 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #BE9582 0%, #E7D2C9 100%);
   content: "";
   transition: width 0.2s;
 }
@@ -125,7 +125,7 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+  background: linear-gradient(to right, #BE9582 0%, #E7D2C9 100%) !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -135,10 +135,10 @@ hr {
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #fff;
-  border-color: #608dfd;
+  border-color: #BE9582;
 }
 .navbar-default .navbar-toggle:hover > .icon-bar {
-  background-color: #608dfd;
+  background-color: #BE9582;
 }
 .section-title {
   margin-top: 25px;
@@ -169,8 +169,8 @@ hr {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
-  background-color: #5ca9fb;
-  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background-color: #BE9582;
+  background-image: linear-gradient(to right, #BE9582 0%, #E7D2C9 100%);
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -187,7 +187,7 @@ hr {
 .btn-custom.active {
   color: #fff;
   background-image: none;
-  background-color: #6372ff;
+  background-color: #BE9582;
 }
 .btn:active,
 .btn.active {
@@ -597,10 +597,10 @@ label {
   font-size: 14px;
 }
 #footer a {
-  color: #608dfd;
+  color: #BE9582;
 }
 #footer a:hover {
-  border-bottom: 2px solid #608dfd;
+  border-bottom: 2px solid #BE9582;
 }
 
 @media (max-width: 768px) {

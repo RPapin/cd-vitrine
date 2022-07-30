@@ -1,5 +1,27 @@
+import { useEffect } from 'react'
 import './navigation.scss'
 export const Navigation = (props) => {
+  const handleCLick = () => {
+    let isExpanded = document.getElementById('bs-example-navbar-collapse-1').getAttribute('aria-expanded')
+    console.log(isExpanded)
+    if(isExpanded === 'true'){
+      document.getElementById('btn-toggle-navbar').click()
+    }
+  }
+
+  useEffect(() => {
+    if(window.innerWidth < 768){
+      window.addEventListener('click', handleCLick)
+      return () => {
+        window.removeEventListener('click', handleCLick)
+      }
+    }
+
+  })
+
+  const handleOnBlur = (e) => {
+    console.log(e.target)
+  }
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
       <div className='container'>
@@ -9,6 +31,7 @@ export const Navigation = (props) => {
             className='navbar-toggle collapsed'
             data-toggle='collapse'
             data-target='#bs-example-navbar-collapse-1'
+            id='btn-toggle-navbar'
           >
             {' '}
             <span className='sr-only'>Déplier</span>{' '}
@@ -21,10 +44,10 @@ export const Navigation = (props) => {
             <img src="img/logo_ecrit.png" alt="Chloé Deschamps" className="img-responsive" id="logo-ecrit"></img>
           </a>
         </div>
-
         <div
           className='collapse navbar-collapse'
           id='bs-example-navbar-collapse-1'
+          onBlur={handleOnBlur}
         >
           <ul className='nav navbar-nav navbar-right'>
             <li>
