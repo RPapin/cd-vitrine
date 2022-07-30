@@ -3,7 +3,6 @@ import './navigation.scss'
 export const Navigation = (props) => {
   const handleCLick = () => {
     let isExpanded = document.getElementById('bs-example-navbar-collapse-1').getAttribute('aria-expanded')
-    console.log(isExpanded)
     if(isExpanded === 'true'){
       document.getElementById('btn-toggle-navbar').click()
     }
@@ -16,12 +15,8 @@ export const Navigation = (props) => {
         window.removeEventListener('click', handleCLick)
       }
     }
-
   })
 
-  const handleOnBlur = (e) => {
-    console.log(e.target)
-  }
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
       <div className='container'>
@@ -47,7 +42,6 @@ export const Navigation = (props) => {
         <div
           className='collapse navbar-collapse'
           id='bs-example-navbar-collapse-1'
-          onBlur={handleOnBlur}
         >
           <ul className='nav navbar-nav navbar-right'>
             <li>

@@ -19,6 +19,7 @@ import { Description } from "./components/description";
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
   speedAsDuration: true,
+  offset: 50
 });
 
 const App = () => {

@@ -1,4 +1,4 @@
-
+Mode tablettes
 snackbar confirmation envoie mail => erreur
 ATTENTION TAILLE JPG ET PNG => temps de chargement
 

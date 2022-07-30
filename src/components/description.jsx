@@ -6,7 +6,7 @@ export const Description = (props) => {
       <div className='in-between'></div>
       <div id='description' className='text-center section-full-container'>
         <div className='container frame-container'>
-            <div className='row row-principal'>
+            <div className='row row-principal' id='description-anchor'>
                 <div className='col-md-6'>
                     <img src="img/presentation/resized.png" 
                     alt="Chloé Deschamps Presentation" className="img-responsive-perso" id="description-img"/>
