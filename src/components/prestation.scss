@@ -1,25 +1,43 @@
 #prestation {
-    background: #f6f6f6;
+    background: #F6EFEC;
 }
 
+
 #prestation .frame-container {
-    padding: 3rem 0;
+    padding: 0rem 5rem 5rem 5rem;
+
+    .title {
+        margin: 4rem 0;
+    }
+    .tarif-title {
+        margin: 3rem 0;
+    }
+    .sub-title {
+        padding-top: 2rem;
+        max-width: 600px;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
     .title span {
         font-family: 'Dancing Script', cursive;
         font-size: 47px;
     }
 
-    .sub-title p{
-        font-size: 22px;
-        font-weight: 300;
-        line-height: 30px;
+    .sub-title span{
+        font-family: "Raleway", sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.1em;
+        overflow-wrap: break-word;
     }    
 }
 .frame-list {
-    padding: 1rem 5rem;
+    padding: 1rem 5rem 0;
     text-align: start;
     .list-item {
-        margin: 1rem 0;
+        margin: 4rem 0;
+        display: flex;
+        align-items: center;
     }
     .list-number {
         display: inline-block;
@@ -28,37 +46,58 @@
         line-height: 1.1em;
         text-align: center;
         font-family: 'Dancing Script', cursive;
-        color: rgb(222,80,33);
+        color: #BE9582;
         margin-right: 5rem;
     }
+    .list-text {
+        font-family: "Raleway", sans-serif;
+        font-size: 16px;
+    }
+}
+.bilan-com .last-child{
+    align-items: flex-start;
 }
 .tarif {
     margin-top: 2rem;
 }
-.btn-success {
-    font-family: Raleway-SemiBold;
+.btn-presta {
+    font-family: "Raleway", sans-serif;
     font-size: 2rem;
-    color: rgb(222,80,33);
+    color: #BE9582;
     letter-spacing: 1px;
     line-height: 15px;
-    border: 2px solid rgb(222,80,33);
+    border: 2px solid #BE9582;
     border-radius: 40px;
     background: transparent;
     transition: all 0.3s ease 0s;
-    padding: 1.5rem;
+    padding: 1.5rem 2rem;
     cursor: default;
   }
   
-.btn-success:hover, .accompagnement .btn-success:hover {
-    color: #FFF;
-    background: #d0cdcd;
-    border: 2px solid #d0cdcd;
+.btn-presta:hover, .accompagnement .btn-success:hover,  .btn-presta:focus{
+    color: #BE9582;;
+    background: #fff;
+    border: 2px solid #BE9582;
 }
 
-.accompagnement .frame-list .list-number {
-    color: #3D9BE9;
-}
-.accompagnement .btn-success {
-    color: #3D9BE9;
-    border: 2px solid #3D9BE9;
+@media (max-width: 768px) {
+    #prestation .frame-container {
+        padding: 0 2rem 3rem;
+        .title{
+            line-height: 3rem;
+        }
+        .sub-title span{
+            font-size: 17px;
+        }
+        .list-text {
+            font-size: 15px;
+        }
+    }
+
+    .frame-list {
+        padding: 1rem 0 0;
+    }
+    .bilan-com .last-child{
+        align-items: center;
+    }
 }

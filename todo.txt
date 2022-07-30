@@ -1,7 +1,11 @@
+snackbar confirmation envoie mail / erreur
+
 Logo icon (onglet) voir pour rond et sans fond blan
 
 Navigation :
-Présentation => Parrallax + img header responsive
+Présentation => 
+ + img header responsive voir pour la height corresponde pile poil cf https://www.emiliefallet.fr/
+
 
 Prestation =>  
 Plateforme en ligne (Vidéo payante => formation )  

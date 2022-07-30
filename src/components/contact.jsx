@@ -1,33 +1,36 @@
 import { useState } from 'react'
 import emailjs from 'emailjs-com'
+import './contact.scss'
+import { Snackbar } from './snackbar'
 
 const initialState = {
-  name: '',
-  email: '',
+  from_name: '',
+  reply_to: '',
   message: '',
+  message_obj: '',
 }
 export const Contact = (props) => {
-  const [{ from_name, reply_to, message }, setState] = useState(initialState)
+  const [{ from_name, reply_to, message, message_obj}, setState] = useState(initialState)
+  const [showToast, setShowToast] = useState(false)
 
   const handleChange = (e) => {
     const { name, value } = e.target
+    setShowToast(false)
     setState((prevState) => ({ ...prevState, [name]: value }))
+
   }
   const clearState = () => setState({ ...initialState })
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    console.log(process.env)
-    console.log(from_name, reply_to, message)
-    
     emailjs
       .sendForm(
         process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_PUBLIC_KEY
       )
       .then(
         (result) => {
-          console.log(result.text)
           clearState()
+          setShowToast(true)
         },
         (error) => {
           console.log(error.text)
@@ -36,6 +39,9 @@ export const Contact = (props) => {
   }
   return (
     <div>
+      {showToast && 
+        <Snackbar showToast={showToast}/>
+      }
       <div id='contact'>
         <div className='container'>
           <div className='col-md-8'>
@@ -44,26 +50,28 @@ export const Contact = (props) => {
                 <h2>Me contacter</h2>
                 <p>
                   Si vous souhaitez prendre un rendez-vous, échanger avec moi sur votre problématique ou pour toute autre question, 
-                  contactez-moi via ce formulaire ou par mail à <b>contact@chloe-deschamps.fr</b> et je vous répondrai au plus vite !
+                  contactez-moi via ce formulaire ou par mail à : <br/>
+                  <span className='sp-email'>contact@chloe-deschamps.fr</span> et je vous répondrai au plus vite !
                 </p>
               </div>
               <form name='sentMessage' validate="true" onSubmit={handleSubmit}>
                 <div className='row'>
-                  <div className='col-md-6'>
+                  <div className='col-md-12'>
                     <div className='form-group'>
                       <input
                         type='text'
                         id='from_name'
                         name='from_name'
                         className='form-control'
-                        placeholder='Name'
+                        placeholder='Nom / Prénom'
+                        value={from_name}
                         required
                         onChange={handleChange}
                       />
                       <p className='help-block text-danger'></p>
                     </div>
                   </div>
-                  <div className='col-md-6'>
+                  <div className='col-md-12'>
                     <div className='form-group'>
                       <input
                         type='email'
@@ -72,6 +80,24 @@ export const Contact = (props) => {
                         className='form-control'
                         placeholder='Email'
                         required
+                        value={reply_to}
+                        onChange={handleChange}
+                      />
+                      <p className='help-block text-danger'></p>
+                    </div>
+                  </div>
+                </div>
+                <div className='row'>
+                <div className='col-md-12'>
+                    <div className='form-group'>
+                      <input
+                        type='text'
+                        id='message_obj'
+                        name='message_obj'
+                        className='form-control'
+                        placeholder='Objet de votre message'
+                        required
+                        value={message_obj}
                         onChange={handleChange}
                       />
                       <p className='help-block text-danger'></p>
@@ -84,8 +110,9 @@ export const Contact = (props) => {
                     id='message'
                     className='form-control'
                     rows='4'
-                    placeholder='Message'
+                    placeholder='Votre message'
                     required
+                    value={message}
                     onChange={handleChange}
                   ></textarea>
                   <p className='help-block text-danger'></p>
@@ -123,29 +150,35 @@ export const Contact = (props) => {
                 {props.data ? props.data.email : 'loading'}
               </p>
             </div>
+            <div className='contact-item social-item'>
+              
+              <a href={props.data ? props.data.instagram : '/'} className='social'>
+                <i className='fa fa-instagram'></i>
+              </a>
+            </div>
           </div>
           <div className='col-md-12'>
-            <div className='row'>
-              <div className='social'>
+            {/* <div className='row'> */}
+              {/* <div className='social'>
                 <ul>
                   {/* <li>
                     <a href={props.data ? props.data.facebook : '/'}>
                       <i className='fa fa-facebook'></i>
                     </a>
-                  </li> */}
-                  <li>
+                  </li> 
+                   <li>
                     <a href={props.data ? props.data.instagram : '/'}>
                       <i className='fa fa-instagram'></i>
                     </a>
-                  </li>
+                  </li>  
                   <li>
                     <a href={props.data ? props.data.youtube : '/'}>
                       <i className='fa fa-youtube'></i>
                     </a>
-                  </li>
+                  </li> *
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

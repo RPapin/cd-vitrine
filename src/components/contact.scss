@@ -1,0 +1,24 @@
+.contact-info {
+    margin-top: 18rem;
+    color: #7f4b2f;
+}
+.sp-email {
+    font-weight: bold;
+}
+#contact .section-title h2, #contact h3 {
+    color: #7f4b2f;
+}
+@media (max-width: 768px) {
+    .contact-info {
+        margin-top: 0;
+    }
+    #contact .social {
+        margin-top: 0;
+        padding-top: 0;
+        border: none;
+        
+    }
+    .social-item {
+        text-align: center;
+    }
+}

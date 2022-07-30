@@ -1,24 +1,24 @@
 {
   "Header": {
     "title": "Comportementaliste équin à Lyon",
-    "paragraph": "Spécialiste du comportement des équidés, je vous propose mes services pour construire avec votre animal une relation de confiance."
+    "paragraph": "Spécialiste du comportement des équidés, je vous propose mes services pour améliorer la communication entre vous et votre cheval."
   },
   "Prestation1": {
     "sectionTitle": "Prestations",
     "title1": "Bilan comportemental",
     "paragraph": "Cette consultation permettra de faire un bilan du comportement de votre équidé et de définir sa ou ses problématique(s)",
-    "One": "Moment d'observation et d'échange autour de l'animal pour identifier sa problématique.",
-    "Two": "Analyse de son environnement, ses besoins fondamentaux, son état corporel, son expression faciale et de sa relation à l'humain.",
-    "Three": "Proposition de modifications environnementale pour améliorer son bien être psychologique et physique.",
+    "One": "Observation et échange à propos de l'animal pour identifier sa problématique.",
+    "Two": "Analyse comportementale (environnement, besoins, tensions, expression faciale, relation à l'humain, ...).",
+    "Three": "Proposition d'axes d'amélioration pour le bien-être du cheval (aménagements de son environnement et de vos séances de travail notamment).",
     "title2": "Tarif",
     "fakeButton": "90€ / 1h30"
   },
   "Prestation2": {
     "title1": "Accompagnement et suivi",
     "paragraph": "Ces séances font suite au bilan comportemental et vous permettront de poursuivre l'accompagnement avec votre cheval",
-    "One": "Travail sur des points clés. Définition des objectifs précis",
-    "Two": "Amélioration du comportement en adaptant les méthodes d'apprentissage en fonction des équidés",
-    "Three": "Création d'émotions positives dans l'objectif d'établir une relation à l'humain saine",
+    "One": "Suivi de l'état général du cheval et de son bien-être d'une séance à l'autre.",
+    "Two": "Proposition de nouvelles actions à mettre en place pour améliorer son comportement.",
+    "Three": "Suggestion d'exercices pour affiner votre relation dans le travail.",
     "title2": "Tarif",
     "fakeButton": "65€ / 1h"
   },
@@ -27,7 +27,7 @@
     "phone": "+1 123 456 1234",
     "email": "contact@chloe-deschamps.fr",
     "facebook": "fb.com",
-    "instagram": "https://www.instagram.com/fanielastaar/",
+    "instagram": "https://www.instagram.com/chloedeschamps_/",
     "youtube": "https://www.youtube.com/channel/UC-MJeni5yPtQmTUKzvJW7-A"
   },
   "About": {

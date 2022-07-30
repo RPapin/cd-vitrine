@@ -1,17 +1,39 @@
 #description {
     background: #ffffff;
+    .wix-title {
+        margin-bottom: 4rem;
+    }
 }
 #description .container {
     padding: 2rem 0;
+}
+.row-principal {
+    display: flex;
+    align-items: center;
 }
 #full-description {
     padding: 2rem;
     overflow-wrap: break-word;
     text-align: start;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.8em;
+    font-size: 17px;
+    color: #000;
 }
 .section-text{
     padding-top: 2rem;
 }
+.in-between {
+    height: 3rem;
+    background-color: #F6EFEC;
+}
+
+@media (min-width: 1200px){
+    #description .container {
+        width: 1100px;
+    }
+}
+
 @media (max-width: 768px) {
     #description .row {
         margin-right: 0;
@@ -24,5 +46,16 @@
     }
     #description .container {
         padding: 0;
+    }
+    .row-principal {
+        display: block;
+
+    }
+    #description.section-full-container {
+        padding: 0;
+    }
+    .in-between {
+        height: 2rem;
+        background-color: #F6EFEC;
     }
 }

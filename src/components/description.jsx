@@ -2,15 +2,17 @@ import './description.scss'
 
 export const Description = (props) => {
     return (
+      <>
+      <div className='in-between'></div>
       <div id='description' className='text-center section-full-container'>
         <div className='container frame-container'>
-            <div className='row '>
+            <div className='row row-principal'>
                 <div className='col-md-6'>
-                    <img src="img/presentation/chloe-deschamps-presentation_edited.png" 
+                    <img src="img/presentation/resized.png" 
                     alt="Chloé Deschamps Presentation" className="img-responsive-perso" id="description-img"/>
                 </div>
                 <div className='col-md-6 section-text'>
-                    <h2 className="wix-title">Qui suis-je</h2>
+                    <h2 className="wix-title">Qui suis-je ?</h2>
                     <hr></hr>
                     <p id="full-description">
                     Propriétaire de Charlie, jument Welsh de 16 ans et de Fanie, ponette Welsh de 7 ans, 
@@ -25,6 +27,7 @@ export const Description = (props) => {
             </div>
         </div>
       </div>
+      </>
     )
   }
   
