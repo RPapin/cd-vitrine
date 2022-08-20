@@ -23,15 +23,24 @@ export const Prestation = (props) => {
             </div>
             <div className="frame-list">
                 <div className="list-item">
-                    <span className="list-number">1</span>
+                    {props.className != "seances" ? 
+                    <span className="list-number">1</span> :
+                    <span className="list-number">-</span>
+                    }
                     <span className="list-text">{props.data.One}</span>
                 </div>
                 <div className="list-item">
-                    <span className="list-number">2</span>
+                    {props.className != "seances" ? 
+                    <span className="list-number">2</span> :
+                    <span className="list-number">-</span>
+                    }
                     <span className="list-text">{props.data.Two}</span>
                 </div>
                 <div className="list-item last-child">
-                    <span className="list-number ">3</span>
+                    {props.className != "seances" ? 
+                    <span className="list-number">3</span> :
+                    <span className="list-number">-</span>
+                    }
                     <span className="list-text">{props.data.Three}</span>
                 </div>
             </div>

@@ -1,0 +1,10 @@
+Features :
+- BDD => NoSql ou  SQL ?????
+- Backend
+- Router
+- Authentification
+- Hebergement vidéo local
+- Gestion des droits
+- Interface de paiement
+- Page Admin Liste des comptes et abonnements
+- Progression vidéo

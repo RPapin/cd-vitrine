@@ -1,19 +1,19 @@
 import { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
-import { Features } from "./components/features";
-import { About } from "./components/about";
-import { Services } from "./components/services";
-import { Gallery } from "./components/gallery";
-import { Testimonials } from "./components/testimonials";
-import { Team } from "./components/Team";
+// import { Features } from "./components/features";
+// import { About } from "./components/about";
+// import { Services } from "./components/services";
+// import { Gallery } from "./components/gallery";
+// import { Testimonials } from "./components/testimonials";
+// import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
 import { Prestation } from "./components/prestation";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 
 import "./App.scss";
-import Gift from "./components/gift/gift";
+// import Gift from "./components/gift/gift";
 import { Description } from "./components/description";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -36,7 +36,7 @@ const App = () => {
       <div id="all-prestations"></div>
       <Prestation data={landingPageData.Prestation1} className="bilan-com"/>
       <Prestation data={landingPageData.Prestation2} className="accompagnement"/>
-      
+      <Prestation data={landingPageData.Prestation3} className="seances"/>
       <Description />
       {/* <Features data={landingPageData.Features} /> */}
       {/* <About data={landingPageData.About} />

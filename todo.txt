@@ -1,10 +1,12 @@
+
+REFERENCEMENT
 Mode tablettes
 snackbar confirmation envoie mail => erreur
 ATTENTION TAILLE JPG ET PNG => temps de chargement
 
 Logo icon (onglet) voir pour rond et sans fond blanc
 
-img HEADER responsive voir pour la height corresponde pile poil cf https://www.emiliefallet.fr/
+img HEADER responsive voir pour la height corresponde pile poil cf https://www.emiliefallet.fr/ + parallax
 Handle resize ppur la navbar
 
 Prestation =>  

@@ -20,7 +20,16 @@
     "Two": "Proposition de nouvelles actions à mettre en place pour améliorer son comportement.",
     "Three": "Suggestion d'exercices pour affiner votre relation dans le travail.",
     "title2": "Tarif",
-    "fakeButton": "65€ / 1h"
+    "fakeButton": "45€ / 1h"
+  },
+  "Prestation3": {
+    "title1": "Séance de travail",
+    "paragraph": "Je vous accompagne dans le travail de votre cheval pour améliorer votre complicité avec lui.",
+    "One": "Travail à pied/monté",
+    "Two": "Éducation/rééducation",
+    "Three": "Débourrage/manipulation du poulain",
+    "title2": "Tarif",
+    "fakeButton": "45€ / 1h"
   },
   "Contact": {
     "address": "Lyon (69) et alentours",
