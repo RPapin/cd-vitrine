@@ -30,7 +30,8 @@ const App = () => {
 
   return (
     <div>
-      <Navigation />
+      <h1>PLATEFORM VIDEO</h1>
+      {/* <Navigation /> */}
       {/* <Gift/> */}
       <Header data={landingPageData.Header} />
       <div id="all-prestations"></div>
