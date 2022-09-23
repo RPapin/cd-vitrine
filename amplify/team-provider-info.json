@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cdplateformvideo-dev-181423-authRole",
+      "UnauthRoleArn": "arn:aws:iam::210426692560:role/amplify-cdplateformvideo-dev-181423-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::210426692560:role/amplify-cdplateformvideo-dev-181423-authRole",
+      "Region": "eu-west-3",
+      "DeploymentBucketName": "amplify-cdplateformvideo-dev-181423-deployment",
+      "UnauthRoleName": "amplify-cdplateformvideo-dev-181423-unauthRole",
+      "StackName": "amplify-cdplateformvideo-dev-181423",
+      "StackId": "arn:aws:cloudformation:eu-west-3:210426692560:stack/amplify-cdplateformvideo-dev-181423/cb2505d0-3b5a-11ed-aa1d-0e0604f52e16",
+      "AmplifyAppId": "d1fpp5g3s2vk1x"
+    }
+  }
+}
