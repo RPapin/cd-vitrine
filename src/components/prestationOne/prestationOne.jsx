@@ -16,10 +16,10 @@ export const PrestationOne = (props) => {
             <span className="list-number"></span>
             <span className="list-text">
             <ul className="custom-list">
-              <li>échange autour de votre cheval et de vos attentes,</li>
-              <li>analyse de ses problématiques s'il en a (et proposition de solutions),</li>
               <li>accompagnement au travail à pied,</li>
-              <li>exercices pour renforcer votre relation.</li>
+              <li>exercices pour renforcer votre relation,</li>
+              <li>résolutions de problèmes comportementaux,</li>
+              <li>éducation du poulain et réeducation du cheval.</li>
             </ul>
             </span>
         </div>

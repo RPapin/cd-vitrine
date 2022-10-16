@@ -9,9 +9,9 @@ export const PrestationTwo = (props) => {
             <span className="list-number"></span>
             <span className="list-text">
             <ul className="custom-list">
-              <li>Quizz sur le poney : sa vie, comment il mange, ce qu'il fait dans une journée.</li>
-              <li>Brossage du poney : comment bien s'en occuper et en prendre soin.</li>
-              <li>Activités ludiques : parcours à pied en autonomie avec le poney.</li>
+              <li>Quizz sur le poney : sa vie, comment il mange, ce qu'il fait dans une journée.</li><br/>
+              <li>Brossage du poney : comment bien s'en occuper et en prendre soin.</li><br/>
+              <li>Activités ludiques : parcours à pied en autonomie avec le poney.</li><br/>
               <li>Apprentissages de tours de cirque et demandes en autonomie de jambettes, coucher, assis, ...</li>
             </ul>
             </span>

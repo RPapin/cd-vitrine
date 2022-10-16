@@ -15,13 +15,13 @@ const LandingPage = () => {
 
   return (
     <div>
-      <Navigation />
+      
       <Header data={landingPageData.Header} />
       <div id="all-prestations"></div>
       <Prestation data={landingPageData.Prestation1} className="accompagnement"/>
       <Prestation data={landingPageData.Prestation2} className="funny"/>
       <Description />
-      <Contact data={landingPageData.Contact} />
+      
     </div>
   );
 };
