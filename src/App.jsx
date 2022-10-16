@@ -15,6 +15,7 @@ import SmoothScroll from "smooth-scroll";
 import "./App.scss";
 // import Gift from "./components/gift/gift";
 import { Description } from "./components/description";
+import LandingPage from "./components/landingPage";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -30,21 +31,7 @@ const App = () => {
 
   return (
     <div>
-      <Navigation />
-      {/* <Gift/> */}
-      <Header data={landingPageData.Header} />
-      <div id="all-prestations"></div>
-      <Prestation data={landingPageData.Prestation1} className="bilan-com"/>
-      <Prestation data={landingPageData.Prestation2} className="accompagnement"/>
-      <Prestation data={landingPageData.Prestation3} className="seances"/>
-      <Description />
-      {/* <Features data={landingPageData.Features} /> */}
-      {/* <About data={landingPageData.About} />
-      <Services data={landingPageData.Services} />
-      <Gallery data={landingPageData.Gallery}/>
-      <Testimonials data={landingPageData.Testimonials} />
-      <Team data={landingPageData.Team} /> */}
-      <Contact data={landingPageData.Contact} />
+        <LandingPage/>
 
     </div>
   );

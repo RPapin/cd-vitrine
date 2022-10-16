@@ -5,31 +5,24 @@
   },
   "Prestation1": {
     "sectionTitle": "Prestations",
-    "title1": "Bilan comportemental",
-    "paragraph": "Cette consultation permettra de faire un bilan du comportement de votre équidé et de définir sa ou ses problématique(s)",
+    "title1": "Séances d'accompagnement",
+    "paragraph": "",
     "One": "Observation et échange à propos de l'animal pour identifier sa problématique.",
     "Two": "Analyse comportementale (environnement, besoins, tensions, expression faciale, relation à l'humain, ...).",
     "Three": "Proposition d'axes d'amélioration pour le bien-être du cheval (aménagements de son environnement et de vos séances de travail notamment).",
     "title2": "Tarif",
-    "fakeButton": "90€ / 1h30"
+    "tarifValue" : "50€",
+    "fakeButton": "En savoir plus"
   },
   "Prestation2": {
-    "title1": "Accompagnement et suivi",
-    "paragraph": "Ces séances font suite au bilan comportemental et vous permettront de poursuivre l'accompagnement avec votre cheval",
+    "title1": "FunnyPony",
+    "paragraph": "Vous souhaitez faire découvrir le monde des poneys à votre enfant ? Je vous propose des ½ journées en immersion avec les poneys !",
     "One": "Suivi de l'état général du cheval et de son bien-être d'une séance à l'autre.",
     "Two": "Proposition de nouvelles actions à mettre en place pour améliorer son comportement.",
     "Three": "Suggestion d'exercices pour affiner votre relation dans le travail.",
     "title2": "Tarif",
-    "fakeButton": "45€ / 1h"
-  },
-  "Prestation3": {
-    "title1": "Séance de travail",
-    "paragraph": "Je vous accompagne dans le travail de votre cheval pour améliorer votre complicité avec lui.",
-    "One": "Travail à pied/monté",
-    "Two": "Éducation/rééducation",
-    "Three": "Débourrage/manipulation du poulain",
-    "title2": "Tarif",
-    "fakeButton": "45€ / 1h"
+    "tarifValue" : "35€ (3 heures)",
+    "fakeButton": "En savoir plus et réserver"
   },
   "Contact": {
     "address": "Lyon (69) et alentours",

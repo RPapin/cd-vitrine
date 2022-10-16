@@ -31,6 +31,10 @@
         overflow-wrap: break-word;
     }    
 }
+.title-bis {
+    font-family: "Raleway", sans-serif;
+    font-style: italic;
+}
 .frame-list {
     padding: 1rem 5rem 0;
     text-align: start;
@@ -52,6 +56,17 @@
     .list-text {
         font-family: "Raleway", sans-serif;
         font-size: 16px;
+    }
+    .list-title {
+        font-family: "Raleway", sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        letter-spacing: 0.08rem;
+    }
+    li {
+        margin-bottom: 0.5rem;
     }
 }
 .bilan-com .last-child{
@@ -78,6 +93,10 @@
     color: #BE9582;;
     background: #fff;
     border: 2px solid #BE9582;
+}
+.sub-title-price {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
 }
 
 @media (max-width: 768px) {

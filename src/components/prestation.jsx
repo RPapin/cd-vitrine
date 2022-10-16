@@ -1,5 +1,7 @@
 import './prestation.scss'
 import { useState, useEffect } from "react";
+import { PrestationOne } from './prestationOne/prestationOne';
+import { PrestationTwo } from './prestationTwo/prestationTwo';
 export const Prestation = (props) => {
 
     return (
@@ -9,44 +11,40 @@ export const Prestation = (props) => {
             {props.data.sectionTitle && 
             <div className='row'>
                 <div className='col-md-10 col-md-offset-1 section-title'>
-                     <h2>{props.data.sectionTitle}</h2>
+                     <h2>{props.data.sectionTitle}
+                    
+                     </h2>
                 </div>
             </div>
             }
           <div className='row frame-container'>
             <div className="title">
-                <span>{props.data.title1}</span>
+                <span>{props.data.title1} 
+                {props.className !== "accompagnement" && <> &#128052;</>}
+                
+                </span>
+                {props.className !== "accompagnement" &&
+                  <div className='title-bis'>(pour les enfants de 6 à 10 ans/groupe de 4 max)</div>
+                }
+
             </div>
             <hr></hr>
             <div className="sub-title">
-            <span>{props.data.paragraph}</span>
+              {props.className === "accompagnement" ? 
+                <span>Votre cheval a des problèmes de comportement que vous aimeriez résoudre ?<br></br>
+                Vous avez envie de développer une relation de complicité avec lui ?<br></br>
+                Vous souhaitez être accompagné(e) dans le travail ?<br></br><br></br>
+                Je vous propose des séances d'accompagnement avec votre cheval !</span> : 
+                <span>{props.data.paragraph}</span> }
             </div>
-            <div className="frame-list">
-                <div className="list-item">
-                    {props.className != "seances" ? 
-                    <span className="list-number">1</span> :
-                    <span className="list-number">-</span>
-                    }
-                    <span className="list-text">{props.data.One}</span>
-                </div>
-                <div className="list-item">
-                    {props.className != "seances" ? 
-                    <span className="list-number">2</span> :
-                    <span className="list-number">-</span>
-                    }
-                    <span className="list-text">{props.data.Two}</span>
-                </div>
-                <div className="list-item last-child">
-                    {props.className != "seances" ? 
-                    <span className="list-number">3</span> :
-                    <span className="list-number">-</span>
-                    }
-                    <span className="list-text">{props.data.Three}</span>
-                </div>
-            </div>
+            {props.className === "accompagnement" ?
+              <PrestationOne data={props.data}/> : <PrestationTwo data={props.data}/>
+            }
             <hr></hr>
             <div className="tarif-title title">
-                <span>{props.data.title2}</span>
+                <span>{props.data.title2 + " : " + props.data.tarifValue}</span>
+                {props.className === "accompagnement" &&
+                <div className='sub-title-price'>Pack 5 séances : 200€</div>}
             </div>
             <div className="tarif">
                 <span><button type="button" className="btn btn-presta">{props.data.fakeButton}</button></span>
