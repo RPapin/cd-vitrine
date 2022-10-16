@@ -42,6 +42,9 @@
 .bold {
   font-weight: bold;
 }
+.no-break-line {
+  white-space: nowrap;
+}
 @media (min-width: 1200px){
   .container {
       width: 820px;

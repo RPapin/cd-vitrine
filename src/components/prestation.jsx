@@ -31,11 +31,11 @@ export const Prestation = (props) => {
             <hr></hr>
             <div className="sub-title">
               {props.className === "accompagnement" ? 
-                <>Votre cheval a des <span className='bold'>problèmes de comportement</span> que vous aimeriez résoudre ?<br></br>
-                Vous avez envie de développer une <span className='bold'>relation de complicité </span>avec lui ?<br></br>
-                Vous souhaitez être accompagné(e) dans le <span className='bold'>travail</span> ?<br></br><br></br>
+                <>Votre cheval a des <span className='bold'>problèmes de comportement</span> que vous aimeriez <span className='no-break-line'>résoudre ?</span><br></br>
+                Vous avez envie de développer une <span className='bold'>relation de complicité </span>avec <span className='no-break-line'>lui ?</span><br></br>
+                Vous souhaitez être accompagné(e) dans le <span className='no-break-line'><span className='bold'>travail</span> ?</span><br></br><br></br>
                 Je vous propose des séances d'accompagnement avec votre cheval !</> : 
-                <>Vous souhaitez faire découvrir le monde des poneys à votre enfant ? <br></br> Je vous propose des ½ journées en immersion avec les poneys ! </>}
+                <>Vous souhaitez faire découvrir le monde des poneys à votre <span className='no-break-line'>enfant ?</span> <br></br> Je vous propose des ½ journées en immersion avec les <span className='no-break-line'>poneys !</span> </>}
             </div>
             {props.className === "accompagnement" ?
               <PrestationOne data={props.data}/> : <PrestationTwo data={props.data}/>
