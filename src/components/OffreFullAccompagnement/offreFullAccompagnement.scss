@@ -1,0 +1,26 @@
+.only-background {
+    height: 45vh;
+}
+#block-container {
+    margin-top: 2rem;
+    .row {
+        margin-bottom: 1rem;
+    }
+}
+.align-items-stretch {
+    display: flex;
+    align-items: stretch;
+} 
+.container-fluid {
+    padding: 0;
+}
+@media (max-width: 768px) {
+    #block-container {
+        .row {
+            padding: 1rem;
+        }
+    }
+    .align-items-stretch {
+        display: block;
+    } 
+}

@@ -8,6 +8,8 @@ import { Presentation } from './components/presentation/presentation';
 import { Contact } from './components/contact';
 import JsonData from "./data/data.json";
 import { Navigation } from './components/navigation';
+import { OffreFullFunny } from './components/OffreFullFunny/offreFullFunny';
+import { OffreFullAccompagnement } from './components/OffreFullAccompagnement/offreFullAccompagnement';
 
 const routing = (
   <Router>
@@ -16,7 +18,9 @@ const routing = (
       <hr />
       <Routes >
         <Route path="/" element={<App/>} />
-        {/* <Route path="/presentation" element={<Presentation/>} /> */}
+        <Route path="/presentation" element={<Presentation/>} />
+        <Route path="/funnypony" element={<OffreFullFunny data={JsonData.FullFunny} />} />
+        <Route path="/accompagnement" element={<OffreFullAccompagnement data={JsonData.FullAccompagnement}/>} />
         {/* <Route component={Notfound} /> */}
       </Routes >
       <Contact data={JsonData.Contact} />

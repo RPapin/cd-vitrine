@@ -32,7 +32,7 @@ const Gift = () => {
     }, [keyPressed, show])
     return (
         <>
-        <button type="button" class="btn btn-primary hide" data-toggle="modal" data-target="#myModal" id="btnToggleModal">Large modal</button>
+        <button type="button" className="btn btn-primary hide" data-toggle="modal" data-target="#myModal" id="btnToggleModal">Large modal</button>
         <div className="modal fade" tabIndex="-1" role="dialog" id="myModal" aria-labelledby="myModalLabel">
             <div className="modal-dialog" role="document">
             <div className="modal-content">

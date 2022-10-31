@@ -3,7 +3,10 @@ import './presentation.scss'
 export const Presentation = (props) => {
 
     return (
-        <h1>Presentation</h1>
+        <div className="full-container presentation">
+            <h1>Presentation</h1>
+        </div>
+        
     )
   }
   

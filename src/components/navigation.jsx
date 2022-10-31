@@ -45,22 +45,30 @@ export const Navigation = (props) => {
         >
           <ul className='nav navbar-nav navbar-right'>
             <li>
-              <a href='#header' className='page-scroll'>
+              <a href='/#header' className='page-scroll'>
                 Accueil
               </a>
             </li>
-            <li>
-              <a href='#all-prestations' className='page-scroll'>
+            <li className='nav-item dropdown'>
+              <a href='#' className='page-scroll nav-link dropdown-toggle' role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="navbarDropdown">
                 Prestations
               </a>
+              <ul className="dropdown-menu nav navbar-nav navbar-right" aria-labelledby="navbarDropdown">
+                <li>
+                  <a className="dropdown-item" href="/funnypony">Funny Pony</a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="/accompagnement">Séance d'accompagnement</a>
+                </li>
+              </ul>
             </li>
             <li>
-              <a href='#description' className='page-scroll'>
+              <a href='/presentation' className='page-scroll'>
                 Qui suis-je
               </a>
             </li>
             <li>
-              <a href='#contact' className='page-scroll'>
+              <a href='/#contact' className='page-scroll'>
                 Contact
               </a>
             </li>

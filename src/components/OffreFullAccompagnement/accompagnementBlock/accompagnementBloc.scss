@@ -1,0 +1,25 @@
+.block-accompagnement {
+    .row-title {
+        display: flex;
+    }
+    .title-container {
+        display: flex;
+        align-items: center;
+    }
+    .title-accompagnement {
+        font-family: "Raleway", sans-serif;
+        // font-size: 70px;
+        font-weight: 700;
+        margin-top: 0;
+        opacity: 0.9;
+        
+    }
+    .text-accompagnement {
+        font-size: 2rem;
+        font-weight: 300;
+        line-height: 25px;
+        margin: 0 auto;
+        text-align: justify;
+    }
+}
+

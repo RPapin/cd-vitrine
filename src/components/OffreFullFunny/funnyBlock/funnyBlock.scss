@@ -1,0 +1,33 @@
+.block-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.block-container.right {
+    flex-direction: row-reverse;
+}
+.img-container {
+    text-align: center;
+    img {
+        width: 300px;
+        height: auto;
+    }
+}
+@media (max-width: 768px) {
+    .block-container {
+        display: block;
+    }
+
+}
+// .left {
+//     .img-container {
+//         margin-right: 2rem;
+//     }
+// }
+
+// .right {
+//     .img-container {
+//         margin-left: 2rem;
+//     }
+// }

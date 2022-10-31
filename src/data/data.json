@@ -32,174 +32,68 @@
     "instagram": "https://www.instagram.com/chloedeschamps_/",
     "youtube": "https://www.youtube.com/channel/UC-MJeni5yPtQmTUKzvJW7-A"
   },
-  "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
-    ],
-    "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
-    ]
+  "FullFunny": {
+    "BlockUn": {
+      "title" : "Apprendre l'éthologie",
+      "text" : "Un peu de science sur le comportement du cheval avec des exercices d'observation. Qu'est ce que le cheval mange ?</br> Combien de temps dort-il ?</br> Comment reconnaitre ses humeurs et ses émotions ?</br> Quels sont ses besoins ?</br> Nous ferons le tour des questions, ce dont il a besoin pour vivre en bonne santé physique et mentale.",
+      "imgSrc" : "testBlock.jpg",
+      "imgAlt" : "observation du cheval, ce qu'il mange par terre"
+    },
+    "BlockDeux": {
+      "title" : "Brossage et soins du poney",
+      "text" : "Prendre soins de l'autre et offrir un moment agréable pour brosser les parties du corps, la crinière, curer les pieds, gratouiller le poney et ainsi favoriser les interactions avec lui pour lui procurer du plaisir.</br></br>Responsabiliser l'enfant auprès du poney. Entretient du pré, remplissage de l'eau, distribution de foin, ramassage de crottins.",
+      "imgSrc" : "testBlock.jpg",
+      "imgAlt" : "brossage du cheval en liberté"
+    },
+    "BlockTrois": {
+      "title" : "Activités ludiques",
+      "text" : "Mener le poney en longe autour d'un parcours d'embûches à franchir : sauter un tronc, slalomer entre les arbres, monter sur une plateforme, passer sous un rideau de ruban, marcher sur une bâche… Travail de confiance avec le poney, être à son écoute et autonome.",
+      "imgSrc" : "testBlock.jpg",
+      "imgAlt" : "Fanie monte sur la plateforme"
+    },
+    "BlockQuatre": {
+      "title" : "Tours de cirque",
+      "text" : "Un moment magique en liberté, en symbiose avec le poney. Réaliser des figures tel que assis, couché, lève la patte, fait le sourire, recule en liberté et bien d'autre...</br>Simplement avec la gestuelle du corps et la voix.",
+      "imgSrc" : "testBlock.jpg",
+      "imgAlt" : "Fanie couché ou assis avec l'enfant"
+    },
+    "BlockCinq": {
+      "title" : "Balade en forêt",
+      "text" : "Se promener en forêt à pied accompagné du poney. Une balade d'une heure et demi sur réservation*</br>Attention vous allez revenir fatigué !",
+      "imgSrc" : "testBlock.jpg",
+      "imgAlt" : "fanie en balade tenu par des enfants"
+    },
+    "BlockSix": {
+      "title" : "Equipements à prévoir",
+      "text" : "Prévoyez de venir en tenue adaptées avec des habits salissants, un manteau chaud et imperméable, des bottes de pluie ou des baskets fermés qui tiennent bien aux pieds, résistante à l'humidité et à la boue.",
+      "imgSrc" : "testBlock.jpg",
+      "imgAlt" : "Mettre des bottes"
+    }
   },
-  "Gallery": [
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+  "FullAccompagnement" : {
+    "BlockUn": {
+      "title" : "Ma vision",
+      "text" : "Je vous partage les 3 piliers qui, pour moi, fondent la relation : La liberté d'expression, l'adaptation et la communication.</br>Le cheval est libre d'exprimer ses émotions, ses envies, sa frustration etc... J'accepte de comprendre pourquoi il réagit ainsi et je m'adapte à lui à travers une communication claire d'un langage corporel qui transmet nos intentions et nos émotions.",
+      "imgSrc" : "01.jpg",
+      "imgAlt" : "observation du cheval, ce qu'il mange par terre"
     },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+    "BlockDeux": {
+      "title" : "Ma mission",
+      "text" : "J'ai à cœur de vous aider à comprendre les maux des chevaux. Je vous traduis leurs messages pour vous aider à mieux les comprendre et contribuer à les aider.</br>Les chevaux que nous rencontrons rentre dans nos vies pour nous apprendre, pour nous remettre en question et pour appuyer sur des points que nous devons travailler. Rien n'est choisi par hasard, chaque cheval est différent avec chaque personne et bien pour une raison.",
+      "imgSrc" : "02.jpg",
+      "imgAlt" : "observation du cheval, ce qu'il mange par terre"
     },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+    "LayerUn": {
+      "title" : "Problème de comportement",
+      "text" : "Vous pouvez faire appel à mes services pour des raisons :</br></br>mon cheval me mord régulièrement -> analyse des origines des tensions et exercices d'apaisement</br></br>mon cheval a des tendances agressives -> observation des signaux d'agressivité, comprendre le trouble. Mise en place décontraction et méthodes adaptés</br> mon cheval me fuit au pré -> devenir agréable pour son cheval et créer un lien avec son humain</br>- mon cheval est impatient -> éducation sur du calme pour l'apaiser</br>mon cheval est froid et nonchalant -> astuces pour le remotiver et lui donner envie d'être avec vous</br>- mon cheval ne marche dessus et me bouscule, il ne me respecte pas -> travail sur la bulle interpersonnel, le langage du corps et les énergies on/off</br>- mon cheval a du mal à sortir seul et s'éloigner des congénères -> devenir autonome et franc lorsqu'il est seul. Devenir un humain de confiance</br>- mon cheval est résigné et dépressif, il a besoin d'aide -> protocole de remise en état psychologique</br>",
+      "imgSrc" : "01.jpg",
+      "imgAlt" : "observation du cheval, ce qu'il mange par terre"
     },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+    "LayerDeux": {
+      "title" : "Education / Réeducation",
+      "text" : "Je vous accompagne dans l'éducation de votre poulain ou la rééducation de votre cheval</br></br>- apprendre à suivre en longe</br>- donner les pieds</br>s'arrêter à l'épaule</br> - respecter notre espace personnel</br>- sortir en extérieur</br> - reculer / déplacer les hanches, épaule</br>- créer une solide relation</br>- exercices multiples selon vos besoins.",
+      "imgSrc" : "02.jpg",
+      "imgAlt" : "observation du cheval, ce qu'il mange par terre"
     }
-  ],
-  "Services": [
-    {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    }
-  ],
-  "Testimonials": [
-    {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    }
-  ],
-  "Team": [
-    {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
-    },
-    {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
-    }
-  ],
-  "Features": [
-    {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    }
-  ]
+  }
 }
