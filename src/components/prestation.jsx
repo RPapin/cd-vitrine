@@ -43,8 +43,6 @@ export const Prestation = (props) => {
             <hr></hr>
             <div className="tarif-title title">
                 <span id='only-tarif'>{props.data.title2 + " : " + props.data.tarifValue}</span>
-                {props.className === "accompagnement" &&
-                <div className='sub-title-price'>Pack 5 séances : 200€</div>}
             </div>
             {/* <div className="tarif">
                 <span><button type="button" className="btn btn-presta">{props.data.fakeButton}</button></span>
