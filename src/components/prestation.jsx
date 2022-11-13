@@ -1,3 +1,4 @@
+import './prestationOne/prestationShared.scss'
 import './prestation.scss'
 import { useState, useEffect } from "react";
 import { PrestationOne } from './prestationOne/prestationOne';
@@ -46,6 +47,34 @@ export const Prestation = (props) => {
                 {props.className === "accompagnement" &&
                 <div className='sub-title-price'>Pack 5 séances : 200€</div>}
             </div>
+            {props.className !== "accompagnement" && 
+              <div className='prestation-footer date-container'>
+                <div className=" prestation-footer-title">
+                  Dates des futures séances :
+                </div>
+                <div className='date-box'>
+                  <li>
+                    Dimanche 20 Novembre
+                  </li>
+                  <li>
+                    Mercredi 23 Novembre
+                  </li>
+                  <li className='info-horaire'>De 14 à 17h </li>
+                  <li>
+                    Dimanche 27 Novembre
+                  </li>
+                  <li>
+                    Mercredi 7 Décembre
+                  </li>
+                  <li>
+                    Dimanche 11 Décembre
+                  </li>
+                  <li className='info-horaire'>De 13h30 à 16h </li>
+                </div>
+                
+              </div>
+              }
+
             {/* <div className="tarif">
                 <span><button type="button" className="btn btn-presta">{props.data.fakeButton}</button></span>
             </div> */}
