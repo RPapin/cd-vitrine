@@ -54,24 +54,16 @@ export const Prestation = (props) => {
                 </div>
                 <div className='date-box'>
                   <li>
-                    Dimanche 20 Novembre
+                    Mardi 20 Décembre
                   </li>
                   <li>
-                    Mercredi 23 Novembre
-                  </li>
-                  <li className='info-horaire'>De 14 à 17h </li>
-                  <li>
-                    Dimanche 27 Novembre
+                    Mercredi 21 Décembre
                   </li>
                   <li>
-                    Mercredi 7 Décembre
+                    Jeudi 22 Décembre
                   </li>
-                  <li>
-                    Dimanche 11 Décembre
-                  </li>
-                  <li className='info-horaire'>De 13h30 à 16h </li>
+                  <li className='info-horaire'>De 13h30 à 16h30 </li>
                 </div>
-                
               </div>
               }
 
