@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import SmoothScroll from "smooth-scroll";
 import "./App.scss";
-import LandingPage from "./components/landingPage";
+import LandingPage from "./components/Accueil/landingPage";
 
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -16,9 +16,7 @@ const App = () => {
   });
 
   return (
-    <div>
-        <LandingPage/>
-    </div>
+    <LandingPage/>
   );
 };
 

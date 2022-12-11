@@ -15,7 +15,6 @@ const routing = (
   <Router>
     <div>
       <Navigation />
-      <hr />
       <Routes >
         <Route path="/" element={<App/>} />
         <Route path="/presentation" element={<Presentation/>} />
@@ -27,24 +26,10 @@ const routing = (
     </div>
   </Router>
 );
-// const router = createBrowserRouter([
-//   {
-//     path: "/",
-//     element: <App />,
-//   },
-//   {
-//     path: "/presentation",
-//     element: <Presentation />,
-//   },
-// ]);
+
 
 require('dotenv').config()
-// ReactDOM.render(
-//   <React.StrictMode>
-//     <RouterProvider router={router} />
-//   </React.StrictMode>,
-//   document.getElementById('root')
-// );
+
 ReactDOM.render(routing, document.getElementById("root"));
 
 // If you want your app to work offline and load faster, you can change

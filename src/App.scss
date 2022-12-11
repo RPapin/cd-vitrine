@@ -45,6 +45,36 @@
 .no-break-line {
   white-space: nowrap;
 }
+.parallax {
+
+  /* Full height */
+  height: 100vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  span {
+    font-size: 5rem;
+  }
+}
+.underline {
+  text-decoration: underline;
+}
+.justify-content-space-around {
+  display: flex;
+  justify-content: space-around;
+}
 @media (min-width: 1200px){
   .container {
       width: 820px;

@@ -24,3 +24,5 @@ yarn-error.log*
 .env
 
 .history/
+
+/CONTENU_SITE_CHLOE

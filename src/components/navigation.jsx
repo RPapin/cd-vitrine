@@ -18,63 +18,35 @@ export const Navigation = (props) => {
   })
 
   return (
-    <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
-      <div className='container'>
-        <div className='navbar-header'>
-          <button
-            type='button'
-            className='navbar-toggle collapsed'
-            data-toggle='collapse'
-            data-target='#bs-example-navbar-collapse-1'
-            id='btn-toggle-navbar'
-          >
-            {' '}
-            <span className='sr-only'>Déplier</span>{' '}
-            <span className='icon-bar'></span>{' '}
-            <span className='icon-bar'></span>{' '}
-            <span className='icon-bar'></span>{' '}
-          </button>
-          <a className='navbar-brand page-scroll' href='#page-top'> 
-            <img src="img/logo_dessin.png" alt="Chloé Deschamps Dessin" className="img-responsive" id="logo-dessin"></img>
-            <img src="img/logo_ecrit.png" alt="Chloé Deschamps" className="img-responsive" id="logo-ecrit"></img>
-          </a>
-        </div>
-        <div
-          className='collapse navbar-collapse'
-          id='bs-example-navbar-collapse-1'
-        >
-          <ul className='nav navbar-nav navbar-right'>
-            <li>
-              <a href='/#header' className='page-scroll'>
-                Accueil
-              </a>
-            </li>
-            <li className='nav-item dropdown'>
-              <a href='#' className='page-scroll nav-link dropdown-toggle' role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="navbarDropdown">
-                Prestations
-              </a>
-              <ul className="dropdown-menu nav navbar-nav navbar-right" aria-labelledby="navbarDropdown">
-                <li>
-                  <a className="dropdown-item" href="/funnypony">Funny Pony</a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="/accompagnement">Séance d'accompagnement</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a href='/presentation' className='page-scroll'>
-                Qui suis-je
-              </a>
-            </li>
-            <li>
-              <a href='/#contact' className='page-scroll'>
-                Contact
-              </a>
-            </li>
-          </ul>
-        </div>
+    <nav className="navbar navbar-expand-lg navbar-light p-3">
+    <div className="container-fluid">
+      <a className="navbar-brand" href="#">
+        <img src="img/logo_dessin.png" alt="Chloé Deschamps Dessin" className="img-responsive" id="logo-dessin"></img>
+      </a>
+      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span className="navbar-toggler-icon"></span>
+      </button>
+   
+      <div className="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul className="navbar-nav ms-auto mx-auto">
+          <li className="nav-item">
+            <a className="nav-link mx-2 active" aria-current="page" href="/#header">Accueil</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link mx-2" href="#">Accompagnement</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link mx-2" href="#">Funny-Pony</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link mx-2" href="#">A Propos</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link mx-2" href="#">Contact</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
   )
 }
