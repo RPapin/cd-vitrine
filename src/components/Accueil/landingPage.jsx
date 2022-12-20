@@ -112,6 +112,56 @@ const LandingPage = () => {
             <a className="btn btn-see-more">En savoir plus</a>
           </div>
         </div>
+
+      </div>
+      <div className="row g-0 testimony-container full-img-background" style={{backgroundImage: 'url("./img/acceuil/accueil-temoignage-chloe-deschamps.jpg")'}}>
+        <div className="col-md-4 col-sm-10 testimony-block">
+          <div className="symbole-quote">
+            ""
+          </div>
+          <p className="testimony-text">
+          Chloé est une personne bienveillante qui s'adapte au couple mais surtout à l'animal.
+          Le suivi derrière est lui aussi très bienveillant et toujours dans l'encouragement. En deux semaines mon cheval réapprend à s'exprimer et je ne pouvais pas avoir meilleur cadeau !
+          </p>
+          <div className="testimony-name">
+            - Inès
+          </div>
+        </div>
+        <div className="col-md-4 col-sm-10 testimony-block">
+          <div className="symbole-quote">
+            ""
+          </div>
+          <p className="testimony-text">
+            J'ai fait appel à Chloé pour aider ma fille de 15 ans à mieux comprendre son cheval et ainsi à mieux s'en occuper et à prendre du plaisir. 
+            Ses conseils et son soutien ont beaucoup apportés et lui ont permis de progresser, merci encore à toi Chloé !
+          </p>
+          <div className="testimony-name">
+            - Cécile
+          </div>
+        </div>
+        <div className="col-md-4 col-sm-10 testimony-block">
+          <div className="symbole-quote">
+            ""
+          </div>
+          <p className="testimony-text">
+            Chloé a récupéré ma jument sauvage pour rééducation, jument que d'autres pros jugeaient comme irrécupérable. 
+            Elle est actuellement en énorme évolution, et je n'ai aucun doute sur le fait qu'elle va encore bien évoluer, grandir et devenir une incroyable jument !
+          </p>
+          <div className="testimony-name">
+            - Andréa
+          </div>
+        </div>
+      </div>
+      <div className="container container-discute">
+        <div className="row">
+          <div className="col-12 block-discute">
+            <h1>Discutons-en !</h1>
+            <p className="text-important">
+              Quelque soit votre besoin, n'hésitez pas à me contacter.<br/>Je serai ravie de vous aider à avancer avec votre cheval !
+            </p>
+            <a className="btn btn-contact" >CONTACT</a>
+          </div>
+        </div>
       </div>
     </div>
   );

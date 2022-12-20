@@ -33,7 +33,7 @@ export const Navigation = (props) => {
             <a className="nav-link mx-2 active" aria-current="page" href="/#header">Accueil</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link mx-2" href="#">Accompagnement</a>
+            <a className="nav-link mx-2" href="/accompagnement">Accompagnement</a>
           </li>
           <li className="nav-item">
             <a className="nav-link mx-2" href="#">Funny-Pony</a>

@@ -75,6 +75,14 @@
   display: flex;
   justify-content: space-around;
 }
+.full-img-background {
+  width: 100%;
+  padding: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
 @media (min-width: 1200px){
   .container {
       width: 820px;
