@@ -65,8 +65,35 @@
   background-color: #b35c7f;
   color: #fff;
 }
-
-
+.block-domino-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 3rem;
+  text-align: center;
+  background-color: #f3ecef;
+  ul {
+    text-align: start;
+  }
+  .important {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.2rem;
+  }
+  ul {
+    list-style-type: disc;
+  }
+}
+.container-tableau {
+  margin: 2rem auto;
+  ol {
+    list-style: decimal
+  }
+}
+.container-container-discute { 
+  background-color: #f3ecef;
+}
 // Tablette
 @media (max-width: 1220px) and (min-width: 768px) {
   .accompagnement-header {
@@ -74,12 +101,25 @@
       position: inherit;
     }
   }
+  .container-pillier {
+    padding: 2rem 5rem;
+  }
+  .block-domino-text {
+    padding: 2rem 8rem;
+
+  }
 }
 // Mobile
 @media (max-width: 768px) {
   .accompagnement-header {
     .left-panel {
       position: inherit;
+    }
+  }
+  .container-pillier {
+    padding: 2rem 2rem;
+    .header-pillier {
+      margin-bottom: 2rem;
     }
   }
 }

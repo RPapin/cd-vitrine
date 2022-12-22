@@ -47,10 +47,8 @@ const LandingPage = () => {
             <img src=".\img\acceuil\accueil-chloe-et-fanie.jpg" alt="Chloé avec Fannie" className="img-fluid"></img>
           </div>
         </div>
+        <br/><br/>
         <div className="row">
-          <div className="col-md-6 col-sm-12">
-            <img src=".\img\acceuil\accueil-chloe-et-charlie.jpg" alt="Chloé avec Charlie" className="img-fluid"></img>
-          </div>
           <div className="col-md-6 col-sm-12">
             <p>
             Je ne vais pas vous parler de tous mes chevaux, mais je suis obligée de vous parler aussi de Charlie. Cette jument m'a rejoint après des années de centre équestre.
@@ -60,12 +58,17 @@ const LandingPage = () => {
             Elle m'aura permis d'apprendre beaucoup.
             </p>
           </div>
+          <div className="col-md-6 col-sm-12 order-md-first" >
+            <img src=".\img\acceuil\accueil-chloe-et-charlie.jpg" alt="Chloé avec Charlie" className="img-fluid"></img>
+          </div>
         </div>
         <div className="row propos-container" >
           <div className="col-md-8 col-sm-10 ">
+            <hr/>
             <p className="text-important">Passionnée par ces animaux, je me suis formée au métier de comportementaliste équin. Alors, si votre cheval a 
             un soucis de comportement ou tout simplement, si vous souhaitez renforcer votre complicité avec lui, 
             contactez-moi ! Je serai très heureuse de pouvoir vous épauler !</p>
+            <hr/>
           </div>
         </div>
       </div>
@@ -85,34 +88,34 @@ const LandingPage = () => {
             </div>
           </div>
         </div>
-        <div className="row g-2 justify-content-space-around">
-          <div className="col-md-5 col-sm-10 presta-colonne presta-red">
-            
-            <h3 className="title-colonne">ACCOMPAGNEMENT PERSONNALISÉ</h3>
-            <hr/>
-            <p>Votre cheval a des problèmes de comportement que vous aimeriez résoudre ? Vous avez envie de développer une relation de complicité avec lui ?<br/><br/>
-            Je vous accompagne dans la résolution des problématiques comportementales de votre cheval et vous aide à renforcer votre relation de complicité avec lui !<br/><br/>
-            N'hésitez pas à me contacter pour que l'on puisse en discuter !</p>
-            <div className="prix">50€ par heure</div>
-            <a className="btn btn-see-more">En savoir plus</a>
-          </div>
-          <div className="col-md-5 col-sm-10 presta-colonne presta-green">
-            <h3 className="title-colonne">FUNNY-PONY</h3>
-            <hr/>
-            <p>Vous souhaitez faire découvrir le monde des poneys à votre enfant ? Je vous propose des  ½  journées en immersion avec les poneys !<br/><br/>
-              <span className="underline bold text-align-center">Au programme :</span><br/><br/>
-              <ul>
-                <li>Quizz sur la vie du poney</li>
-                <li>Brossage et gratouilles</li>
-                <li>Activités ludiques à pied avec le poney</li>
-                <li>Apprentissage des tours de cirque <br/> (coucher, assis, donne la patte, ...)</li>
-              </ul>
-            </p>
-            <div className="prix">30€ par enfant (3h d'activité)</div>
-            <a className="btn btn-see-more">En savoir plus</a>
+        <div className="container container-tableau">
+          <div className="row justify-content-space-around">
+            <div className="col-md-5 col-sm-10 presta-colonne presta-red">
+              <h3 className="title-colonne">ACCOMPAGNEMENT PERSONNALISÉ</h3>
+              <hr/>
+              <p>Votre cheval a des problèmes de comportement que vous aimeriez résoudre ? Vous avez envie de développer une relation de complicité avec lui ?<br/><br/>
+              Je vous accompagne dans la résolution des problématiques comportementales de votre cheval et vous aide à renforcer votre relation de complicité avec lui !<br/><br/>
+              N'hésitez pas à me contacter pour que l'on puisse en discuter !</p>
+              <div className="prix">50€ par heure</div>
+              <a className="btn btn-see-more">En savoir plus</a>
+            </div>
+            <div className="col-md-5 col-sm-10 presta-colonne presta-green">
+              <h3 className="title-colonne">FUNNY-PONY</h3>
+              <hr/>
+              <p>Vous souhaitez faire découvrir le monde des poneys à votre enfant ? Je vous propose des  ½  journées en immersion avec les poneys !<br/><br/>
+                <span className="underline bold text-align-center">Au programme :</span><br/><br/>
+                <ul>
+                  <li>Quizz sur la vie du poney</li>
+                  <li>Brossage et gratouilles</li>
+                  <li>Activités ludiques à pied avec le poney</li>
+                  <li>Apprentissage des tours de cirque <br/> (coucher, assis, donne la patte, ...)</li>
+                </ul>
+              </p>
+              <div className="prix">30€ par enfant (3h d'activité)</div>
+              <a className="btn btn-see-more">En savoir plus</a>
+            </div>
           </div>
         </div>
-
       </div>
       <div className="row g-0 testimony-container full-img-background" style={{backgroundImage: 'url("./img/acceuil/accueil-temoignage-chloe-deschamps.jpg")'}}>
         <div className="col-md-4 col-sm-10 testimony-block">

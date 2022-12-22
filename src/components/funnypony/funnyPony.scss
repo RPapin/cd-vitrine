@@ -1,0 +1,83 @@
+.header-funnypony {
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  min-height: 42vh;
+}
+.container-presentation-funny {
+  margin: 0.5rem auto;
+  max-width: 100vw;
+  .background-full-width {
+    background-color: #f7efef;
+  }
+}
+.block-presentation-funny {
+  padding: 2rem 0;
+  max-width: 100vw;
+  .text-presentation-funny {
+    padding: 0 2rem;
+  }
+  ul {
+    list-style-type: disc;
+  }
+}
+.testimony-funny {
+  color: #27a050;
+  .testimony-name, .symbole-quote {
+    color: #27a050;
+  }
+}
+.container-background {
+  width: 100%;
+  background-color: #82cdb1;
+}
+.container-form-funny {
+  padding: 2rem 0;
+  color: #fff;
+  ul {
+    list-style-type: disc;
+  }
+  .bordered {
+    padding: 2rem;
+    border: solid 4px #fff;
+    border-radius: 2rem; 
+  }
+  .merci {
+    color: #000;
+    font-weight: bold;
+  }
+}
+.final-block-funny {
+  margin: 2rem auto;
+  p {
+    text-align: center;
+  }
+  h1,hr {
+    color: #82cdb1;
+  }
+  hr {
+    margin: 1rem auto;
+    opacity: 1;
+    background: #82cdb1;
+  }
+}
+// Tablette
+@media (max-width: 1220px) and (min-width: 768px) {
+  .header-funnypony {
+    min-height: 25vh;
+  }
+}
+// Mobile
+@media (max-width: 768px) {
+  .header-funnypony {
+    min-height: 550px;
+  }
+  .block-presentation-funny {
+    padding: 0;
+    .text-presentation-funny {
+      padding: 2rem 2rem;
+    }
+  }
+}

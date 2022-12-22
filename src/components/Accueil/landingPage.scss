@@ -77,8 +77,6 @@
   }
 }
 .testimony-container {
-
-  min-height: 700px;
   padding: 0 2rem;
 }
 .testimony-block {
@@ -138,8 +136,11 @@
   .parallax-text {
     font-size: 3rem!important;
   }
+  .container-tableau {
+    padding: 0 2rem;
+  }
   .presta-colonne {
-    margin-bottom: 2rem;
+    margin: 0 0 2rem;
   }
   .testimony-block {
     padding: 2rem 2rem;
