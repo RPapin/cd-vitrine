@@ -1,0 +1,20 @@
+.container-footer {
+  padding: 1rem 0;
+  color: #fff;
+}
+.full-width {
+  width: 100%;
+  background-color: #b35c7f;
+}
+// Tablette
+@media (max-width: 1220px) and (min-width: 768px) {
+
+}
+// Mobile
+@media (max-width: 768px) {
+  .text-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

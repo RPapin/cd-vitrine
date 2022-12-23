@@ -22,7 +22,8 @@ export const Presentation = (props) => {
                         <h2 className="h2-title">
                             Mon histoire
                         </h2>
-                        <p className="presentation-text">Tout a commencé en centre équestre, j'étais cette petite fille qui voulait monter les chevaux.
+                        <p cl
+                        ssName="presentation-text">Tout a commencé en centre équestre, j'étais cette petite fille qui voulait monter les chevaux.
                          J'ai passé mes 4 galops puis j'ai eu envie de descendre de cheval pour passer du temps avec lui et apprendre à mieux le connaitre. 
                          Malheureusement ma demande n'a pas été accepté au club alors j'avais deux choix... Continuer l'équitation et culpabiliser de monter à cheval ou tout arrêter et ne plus avoir de contact avec les chevaux. 
                          J'ai choisi la deuxième option, j'ai tout stoppé, même mon option équitation noté du bac. Et j'ai fais un break, j'ai cherché des demi-pensions mais il fallait venir travailler le cheval, 

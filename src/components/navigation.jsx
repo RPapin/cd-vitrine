@@ -39,10 +39,10 @@ export const Navigation = (props) => {
             <a className="nav-link mx-2" href="/funnypony">Funny-Pony</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link mx-2" href="#">A Propos</a>
+            <a className="nav-link mx-2" href="/propos">A Propos</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link mx-2" href="#">Contact</a>
+            <a className="nav-link mx-2" href="/contact">Contact</a>
           </li>
         </ul>
       </div>

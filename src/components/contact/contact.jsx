@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import emailjs from 'emailjs-com'
 import './contact.scss'
-import { Snackbar } from './snackbar'
+import { Snackbar } from '../snackbar'
 
 const initialState = {
   from_name: '',
