@@ -1,8 +1,4 @@
 import { useState, useEffect } from "react";
-import { Navigation } from "../navigation";
-import { Header } from "../header";
-import { Contact } from "../contact/contact";
-import { Prestation } from "../prestation";
 import JsonData from "../../data/data.json";
 import './landingPage.scss'
 

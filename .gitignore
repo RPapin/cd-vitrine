@@ -26,3 +26,6 @@ yarn-error.log*
 .history/
 
 /CONTENU_SITE_CHLOE
+
+#OLD COMPONENTS
+/src/components/oldComponents

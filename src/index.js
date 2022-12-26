@@ -5,12 +5,13 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import { Contact } from './components/contact/contact';
-import JsonData from "./data/data.json";
-import { Navigation } from './components/navigation';
+import { Navigation } from './components/navigation/navigation';
 import Accompagnement from './components/accompagnement/accompagnement';
 import FunnyPony from './components/funnypony/funnyPony';
 import Propos from './components/propos/propos';
 import Footer from './components/footer/footer';
+import { Mentions } from './components/mentions/mentions';
+import { Confidentialite } from './components/confidentialite/confidentialite';
 
 const routing = (
   <Router>
@@ -22,6 +23,9 @@ const routing = (
         <Route path="/funnypony" element={<FunnyPony/>} />
         <Route path="/propos" element={<Propos />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/mentions-legales" element={<Mentions />} />
+        <Route path="/confidentialite" element={<Confidentialite />} />
+
         {/* <Route component={Notfound} /> */}
       </Routes >
       <Footer />

@@ -8,13 +8,18 @@ const Footer = () => {
       <div className='container container-footer'>
         <div className='row'>
           <div className='col-md-8 d-flex align-items-center text-footer'>
+            
             © 2022 Chloé Deschamps
           </div>
           <div className='col-md-2 text-footer'>
+            <a href='/confidentialite' className='invisible-link'>
             Politique de confidentialité
+            </a>
           </div>
           <div className='col-md-2 text-footer'>
-            Mentions légales
+            <a href='/mentions-legales' className='invisible-link'>
+              Mentions légales
+            </a>
           </div>
         </div>
       </div>
