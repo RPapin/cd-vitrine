@@ -112,7 +112,7 @@ const Propos = () => {
           backgroundImage: 'url("./img/propos/a-propos-chloe-deschamps-2.jpg")',
         }}
       >
-        <div className="pretty-quote">
+        <div className="pretty-quote quote">
           « Ma vocation ? Aider les chevaux et les humains à mieux se comprendre
           ! »
         </div>

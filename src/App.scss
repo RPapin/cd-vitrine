@@ -65,7 +65,7 @@
   text-align: center;
   color: #fff;
   span {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 }
 .underline {
@@ -92,9 +92,17 @@
 .invisible-link:hover {
   color: inherit;
 }
+.btn-contact {
+  background-color: #b35c7f;
+  color: #fff;
+}
+.btn-contact:hover {
+  background-color: #fff;
+  color: #b35c7f;
+  border: #b35c7f solid 1px;
+}
 @media (min-width: 1200px){
   .container {
       width: 820px;
   }
-
 }

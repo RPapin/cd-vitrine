@@ -16,13 +16,13 @@ const LandingPage = () => {
             <img src=".\img\acceuil\accueil-chloe-et-orphee.jpg" alt="Chloé donne un bonbon à Orphée" className="img-fluid"></img>
           </div>  
           <div className="col-md-6 col-sm-12 rigth-side-header">
-            <p>Je m'appelle Chloé, et je suis comportementaliste équin sur Lyon</p>
+            <h4>Je m'appelle Chloé, et je suis comportementaliste équin sur Lyon</h4>
             <a href="/contact" className="btn btn-classique">Me Contacter</a>
           </div>  
         </div> 
       </section>
       <div className="container">
-        <div className="row propos-container">
+        <div className="row propos-container d-flex justify-content-center">
           <div className="col-md-8 col-sm-10">
             <h2>A propos de moi</h2>
             <hr></hr>
@@ -70,7 +70,7 @@ const LandingPage = () => {
       </div>
       <div className="row g-0">
         <div className="col-12 parallax" style={{backgroundImage: 'url("./img/acceuil/accueil-kasmine.jpg")'}}>
-          <div className="caption">
+          <div className="caption quote">
             <span className="parallax-text">« Écouter, observer, prendre le temps ... »</span>
           </div>
         </div>

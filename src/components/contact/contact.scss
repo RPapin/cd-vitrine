@@ -1,24 +1,40 @@
-.contact-info {
-    margin-top: 18rem;
-    color: #7f4b2f;
+.social-media {
+    width: 50px;
+    margin-right: 1rem;
+}
+
+.container-form {
+    padding: 2rem 0;
+    .left-side {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        p {
+            font-size: 1rem;
+            line-height: 2;
+        }
+    }
+    .social-block {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+.btn-full-width {
+    width: 100%;
+}
+.small-text {
+    font-size: 0.85rem;
+}
+#contact-left-panel {
+    padding: 2rem 4rem;
+    justify-content: center;
+
 }
 .sp-email {
     font-weight: bold;
 }
-#contact .section-title h2, #contact h3 {
-    color: #7f4b2f;
-}
+
 @media (max-width: 768px) {
-    .contact-info {
-        margin-top: 0;
-    }
-    #contact .social {
-        margin-top: 0;
-        padding-top: 0;
-        border: none;
-        
-    }
-    .social-item {
-        text-align: center;
-    }
+
 }
