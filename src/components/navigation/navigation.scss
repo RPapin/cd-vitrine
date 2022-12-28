@@ -10,7 +10,15 @@
     max-width: 100vw;
     height: auto;
 }
-
+.nav-link {
+    color: #000;
+}
+.nav-link:hover {
+    color: #b35c7f!important;
+}
+.nav-link.active {
+    color: #b35c7f!important;
+}
 @media all and (min-width: 992px) {
 	.navbar .nav-item .dropdown-menu{ display: none; }
 	.navbar .nav-item:hover .nav-link{   }

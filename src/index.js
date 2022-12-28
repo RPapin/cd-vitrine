@@ -18,7 +18,8 @@ const routing = (
     <div>
       <Navigation />
       <Routes >
-        <Route path="/" element={<App/>} />
+        <Route index element={<App/>} />
+        <Route path="/home" element={<App/>} />
         <Route path="/accompagnement" element={<Accompagnement/>} />
         <Route path="/funnypony" element={<FunnyPony/>} />
         <Route path="/propos" element={<Propos />} />
