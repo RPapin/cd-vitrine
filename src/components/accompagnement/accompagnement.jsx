@@ -1,6 +1,6 @@
 
 import './accompagnement.scss'
-import '../accueil/landingPage.scss'
+import '../landingpage/landingPage.scss'
 
 const Accompagnement = () => {
 
