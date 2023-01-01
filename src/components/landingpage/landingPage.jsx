@@ -30,7 +30,7 @@ const LandingPage = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-md-6 col-sm-12">
+          <div className="col-md-6 col-sm-12 texte-bloc">
             <p>
             Comment écrire ce paragraphe sans vous parler de Fanie ! Fanie, c'est ma petite ponette toute pleine d'énergie que vous avez probablement déjà aperçue sur mes photos. 
             Elle m'a permis de vraiment comprendre les méthodes d'apprentissage des chevaux !
@@ -45,7 +45,7 @@ const LandingPage = () => {
         </div>
         <br/><br/>
         <div className="row">
-          <div className="col-md-6 col-sm-12">
+          <div className="col-md-6 col-sm-12 texte-bloc">
             <p>
             Je ne vais pas vous parler de tous mes chevaux, mais je suis obligée de vous parler aussi de Charlie. Cette jument m'a rejoint après des années de centre équestre.
             <br/><br/>

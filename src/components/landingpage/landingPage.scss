@@ -110,15 +110,22 @@
   p {
     margin: 4rem 0;
   }
+  
 }
 // Tablette
 @media (max-width: 1220px) and (min-width: 768px) {
   .rigth-side-header {
     padding: 3rem 3rem;
   }
+  .texte-bloc {
+    padding: 1rem;
+  }
 }
 // Mobile
 @media (max-width: 768px) {
+  .texte-bloc {
+    padding: 1rem;
+  }
   .rigth-side-header {
     padding: 3rem 3rem;
     a {

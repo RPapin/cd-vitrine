@@ -63,6 +63,28 @@
     background: #82cdb1;
   }
 }
+.suscribeMail {
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    button {
+      margin-top: 0.5rem;
+    }
+  }
+  
+}
+.btn-suscribed {
+  color: #82cdb1;
+  border: 1px solid #82cdb1;
+  background-color: #fff;
+}
+.btn-suscribed:hover {
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: #82cdb1;
+}
 // Tablette
 @media (max-width: 1220px) and (min-width: 768px) {
   .header-funnypony {

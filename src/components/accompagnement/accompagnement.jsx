@@ -18,7 +18,7 @@ const Accompagnement = () => {
             lorsque tout va bien, je vous aide à améliorer votre relation avec votre cheval.<br/><br/>
           <b>Séance chez vous ou en visio !</b>
           </p>
-          <a className="btn btn-contact">ME CONTACTER</a>
+          <a className="btn btn-contact" href='/contact'>ME CONTACTER</a>
         </div>
       </div>
       <div className="container container-mission">
@@ -69,7 +69,7 @@ const Accompagnement = () => {
             <p>
             Une séance dure environ 1h. On pourra travailler aussi bien sur des problèmes de comportement que sur du travail à pied, ce sera en fonction de vous et de vos besoins !
             </p>
-            <a className="btn btn-contact">QUELQUES VIDÉOS DE MON TRAVAIL</a>
+            <a className="btn btn-contact" href='/contact'>QUELQUES VIDÉOS DE MON TRAVAIL</a>
           </div>
         </div>
       </div>
@@ -212,7 +212,7 @@ const Accompagnement = () => {
               <p className="text-important">
                 Quelque soit votre besoin, n'hésitez pas à me contacter.<br/>Je serai ravie de vous aider à avancer avec votre cheval !
               </p>
-              <a className="btn btn-contact" >CONTACT</a>
+              <a className="btn btn-contact" href='/contact'>CONTACT</a>
             </div>
           </div>
         </div>

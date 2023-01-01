@@ -44,8 +44,10 @@
     }
     hr {
       margin: auto;
+      opacity: 1;
     }
   }
+  
   .block-pillier {
     background-color: rgba(255, 255, 255, 0.363);
     display: flex;
@@ -53,12 +55,19 @@
     align-items: center;
     justify-content: center;
     padding: 2rem;
+    hr {
+      margin-top: 1rem;
+      width: 80%;
+      opacity: 1;
+    } 
+    h3, hr {
+      text-align: center;
+      color: #fff;
+      opacity: 1;
+    }
   }
-  h3, hr {
-    text-align: center;
-    color: #fff;
-    opacity: 1;
-  }
+  
+
 
 }
 

@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import emailjs from 'emailjs-com'
-import './contact.scss'
+
 import { Snackbar } from '../snackbar/snackbar'
+import './contact.scss'
 
 const initialState = {
   from_name: '',
@@ -29,7 +30,7 @@ export const Contact = (props) => {
 
     emailjs
       .sendForm(
-        process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_PUBLIC_KEY
+        process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_CONTACT, e.target, process.env.REACT_APP_PUBLIC_KEY
       )
       .then(
         (result) => {
