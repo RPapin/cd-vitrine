@@ -21,16 +21,16 @@ const FunnyPony = () => {
   const [showToast, setShowToast] = useState(false);
   const clearState = () => setState({ ...initialState });
   const imageUrl =
-    window.innerWidth >= 768
-      ? "./img/funnypony/full_header.png"
-      : "./img/funnypony/full_header_mobile.png";
+    window.innerWidth >= 1220
+      ? "./img/funnypony/funny-pony-version-pc.jpg"
+      : "./img/funnypony/funny-pony-version-mobile-nu.jpg";
   const handleChange = (e) => {
     const { name, value } = e.target;
     setShowToast(false);
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
   const handleChangeSuscribe = (e) => {
-    setEmailSuscribed(e.target.value)
+    setEmailSuscribed(e.target.value);
   };
   const handleSuscribeMail = (e) => {
     e.preventDefault();
@@ -39,37 +39,57 @@ const FunnyPony = () => {
   const handleSignInActivity = (e) => {
     e.preventDefault();
     console.log(process.env);
-    
+
     emailjs
       .sendForm(
-        process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_FUNNY_PONNY, e.target, process.env.REACT_APP_PUBLIC_KEY
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_FUNNY_PONNY,
+        e.target,
+        process.env.REACT_APP_PUBLIC_KEY
       )
       .then(
         (result) => {
-          clearState()
-          setShowToast(true)
+          clearState();
+          setShowToast(true);
         },
         (error) => {
-          console.log(error.text)
+          console.log(error.text);
         }
-      )
+      );
   };
   return (
     <div className="">
       {showToast && <Snackbar showToast={showToast} />}
       <div className="row g-0">
         <div
-          className="col-12 header-funnypony"
+          className="col-12 header-funnypony full-img-background"
           style={{ backgroundImage: `url(${imageUrl})` }}
         >
+          <div className="container-header-funny">
+            <h1>FUNNY PONY</h1>
+            <p className="sous-titre">
+              Faites découvrir le monde des poneys à votre enfant !
+            </p>
+            <div className="list-header-funny">
+              📍 <b>Lieu</b> : La Tour de Salvagny (69)
+              <br />
+              ⏰ <b>Durée</b> : 3 heures
+              <br />
+              🧒 <b>Âge</b> : environ 6 à 10 ans
+              <br />
+              💶 <b>Prix</b> : 35€ par enfant
+              <br />
+            </div>
+            <a className="btn btn-funny rounded-pill" href="#reserver">Réserver</a>
+          </div>
           {/* <img src={imageUrl} alt="Présentation funny pony" className="img-fluid"></img> */}
         </div>
       </div>
       <div className="container-fluid container-presentation-funny">
-        <div className="row g-0  block-presentation-funny">
+        <div className="row g-0 block-presentation-funny">
           <div className="col-md-4 offset-md-2 col-sm-12 ">
             <img
-              src={"./img/acceuil/accueil-chloe-et-charlie.jpg"}
+              src={"./img/funnypony/20200526102007_IMG_0513-01.jpeg"}
               alt="Observation de chevaux"
               className="img-fluid"
             ></img>
@@ -97,7 +117,7 @@ const FunnyPony = () => {
         <div className="row g-0 block-presentation-funny background-full-width">
           <div className="col-md-4 col-sm-12 order-md-last">
             <img
-              src={"./img/acceuil/accueil-chloe-et-charlie.jpg"}
+              src={"./img/funnypony/IMG_8976.jpg"}
               alt="Observation de chevaux"
               className="img-fluid"
             ></img>
@@ -123,7 +143,7 @@ const FunnyPony = () => {
         <div className="row g-0 block-presentation-funny">
           <div className="col-md-4 offset-md-2 col-sm-12 ">
             <img
-              src={"./img/acceuil/accueil-chloe-et-charlie.jpg"}
+              src={"./img/funnypony/02072020-ILY_2068.jpg"}
               alt="Observation de chevaux"
               className="img-fluid"
             ></img>
@@ -147,7 +167,7 @@ const FunnyPony = () => {
         <div className="row g-0 block-presentation-funny background-full-width">
           <div className="col-md-4 col-sm-12 order-sm-last">
             <img
-              src={"./img/acceuil/accueil-chloe-et-charlie.jpg"}
+              src={"./img/funnypony/02072020-ILY_1959.jpg"}
               alt="Observation de chevaux"
               className="img-fluid"
             ></img>
@@ -173,7 +193,7 @@ const FunnyPony = () => {
         <div className="row g-0 block-presentation-funny">
           <div className="col-md-4 offset-md-2 col-sm-12 ">
             <img
-              src={"./img/acceuil/accueil-chloe-et-charlie.jpg"}
+              src={"./img/funnypony/IMG_3280.jpg"}
               alt="Observation de chevaux"
               className="img-fluid"
             ></img>
@@ -207,7 +227,7 @@ const FunnyPony = () => {
         }}
       >
         <div className="col-md-4 col-sm-10 testimony-block">
-          <div className="symbole-quote">""</div>
+          {/* <div className="symbole-quote">""</div> */}
           <p className="testimony-text">
             Louise a eu la chance de participer à une après-midi Funny-Pony.
             Elle avait déjà fait des séances en poney-club. Nous avons beaucoup
@@ -219,7 +239,7 @@ const FunnyPony = () => {
           <div className="testimony-name">- Maman de Louise</div>
         </div>
         <div className="col-md-4 col-sm-10 testimony-block">
-          <div className="symbole-quote">""</div>
+          {/* <div className="symbole-quote">""</div> */}
           <p className="testimony-text">
             Notre fille Lina a participé à une matinée de Funny-Pony avec 3
             autres enfants. Elle est revenue vraiment ravie de cette
@@ -231,7 +251,7 @@ const FunnyPony = () => {
           <div className="testimony-name">- Papa de Lina</div>
         </div>
         <div className="col-md-4 col-sm-10 testimony-block">
-          <div className="symbole-quote">""</div>
+          {/* <div className="symbole-quote"><img src=".\img\funnypony\guillemet.png" alt="guillemet" className="img-fluid"></img></div> */}
           <p className="testimony-text">
             Nous avons inscrit Mattéo au Funny-Pony 2 fois. Il a littéralement
             adoré et nous en parle encore souvent ! Matteo ne connaissait pas du
@@ -242,7 +262,7 @@ const FunnyPony = () => {
           <div className="testimony-name">- Mamy de Mattéo</div>
         </div>
       </div>
-      <div className="container-background">
+      <div className="container-background" id="reserver">
         <div className="container container-form-funny">
           <div className="row">
             <div className="col-md-6 col-sm-12">
@@ -388,21 +408,44 @@ const FunnyPony = () => {
                   <p className="help-block text-danger"></p>
                 </div>
                 <span>Pour quel date souhaitez-vous réserver *</span>
-                <div className="form-check" >
-                  
-                  <input className="form-check-input" type="radio" value="02/12" id="02/12" name="date" checked={date === "02/12"} onChange={handleChange}/>
+                <div className="form-check">
+                  <input
+                    className="form-check-input"
+                    type="radio"
+                    value="02/12"
+                    id="02/12"
+                    name="date"
+                    checked={date === "02/12"}
+                    onChange={handleChange}
+                  />
                   <label className="form-check-label" for="02/12">
                     02/12 de 14h à 17h
                   </label>
                 </div>
                 <div className="form-check">
-                  <input className="form-check-input" type="radio" value="07/12" id="07/12" name="date" checked={date === "07/12"} onChange={handleChange}/>
+                  <input
+                    className="form-check-input"
+                    type="radio"
+                    value="07/12"
+                    id="07/12"
+                    name="date"
+                    checked={date === "07/12"}
+                    onChange={handleChange}
+                  />
                   <label className="form-check-label" for="07/12">
                     07/12 de 14h à 17h
                   </label>
                 </div>
                 <div className="form-check">
-                  <input className="form-check-input" type="radio" value="22/12" id="22/12" name="date" checked={date === "22/12"} onChange={handleChange}/>
+                  <input
+                    className="form-check-input"
+                    type="radio"
+                    value="22/12"
+                    id="22/12"
+                    name="date"
+                    checked={date === "22/12"}
+                    onChange={handleChange}
+                  />
                   <label className="form-check-label" for="22/12">
                     22/12 de 14h à 17h
                   </label>
@@ -416,7 +459,7 @@ const FunnyPony = () => {
           </div>
         </div>
       </div>
-      <div className="container final-block-funny">
+      <div className="container final-block-funny " >
         <div className="row">
           <div className="col-md-12">
             <h1>Besoin d'échanger avant de vous inscrire ?</h1>

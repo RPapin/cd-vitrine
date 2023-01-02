@@ -8,7 +8,7 @@ const Accompagnement = () => {
     <div className="">
       <div className="row g-0 accompagnement-header">
         <div className="col-xl-6 offset-xl-0 col-lg-8 offset-lg-2 col-md-12 col-sm-12 right-panel">
-          <img src=".\img\accompagnement\accompagnement-chloe-deschamps-comportementaliste-equi.jpg" alt="Chloé caresse Orphée" className="img-fluid"></img>
+          <img src=".\img\accompagnement\2- Charlie et Kasmine.jpg" alt="Chloé caresse Orphée" className="img-fluid"></img>
         </div>
         <div className="col-xl-6 offset-xl-0 col-lg-8 offset-lg-2 col-md-12 col-sm-12 left-panel">
           {/*  */}
