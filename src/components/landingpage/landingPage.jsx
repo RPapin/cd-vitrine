@@ -30,7 +30,7 @@ const LandingPage = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-md-6 col-sm-12 texte-bloc">
+          <div className="col-md-6 col-sm-12 texte-bloc left">
             <p>
             Comment écrire ce paragraphe sans vous parler de Fanie ! Fanie, c'est ma petite ponette toute pleine d'énergie que vous avez probablement déjà aperçue sur mes photos. 
             Elle m'a permis de vraiment comprendre les méthodes d'apprentissage des chevaux !
@@ -43,9 +43,9 @@ const LandingPage = () => {
             <img src=".\img\acceuil\accueil-chloe-et-fanie.jpg" alt="Chloé avec Fannie" className="img-fluid"></img>
           </div>
         </div>
-        <br/><br/>
+        <br/><br/><br/><br/>
         <div className="row">
-          <div className="col-md-6 col-sm-12 texte-bloc">
+          <div className="col-md-6 col-sm-12 texte-bloc right">
             <p>
             Je ne vais pas vous parler de tous mes chevaux, mais je suis obligée de vous parler aussi de Charlie. Cette jument m'a rejoint après des années de centre équestre.
             <br/><br/>
@@ -60,11 +60,11 @@ const LandingPage = () => {
         </div>
         <div className="row propos-container" >
           <div className="col-md-8 col-sm-10 ">
-            <hr/>
+            
             <p className="text-important">Passionnée par ces animaux, je me suis formée au métier de comportementaliste équin. Alors, si votre cheval a 
             un soucis de comportement ou tout simplement, si vous souhaitez renforcer votre complicité avec lui, 
             contactez-moi ! Je serai très heureuse de pouvoir vous épauler !</p>
-            <hr/>
+      
           </div>
         </div>
       </div>
@@ -75,7 +75,7 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
-      <div className="container presta-container">
+      <div className="presta-container">
         <div className="row">
           <div className="col-12 ">
             <div className="d-flex align-items-center flex-column mb-2">
@@ -84,22 +84,28 @@ const LandingPage = () => {
             </div>
           </div>
         </div>
-        <div className="container container-tableau">
-          <div className="row justify-content-space-around">
-            <div className="col-md-5 col-sm-10 presta-colonne presta-red">
+        <div className="container-tableau">
+          <div className="row g-0 display-flex justify-content-center">
+            <div className="col-md-6 col-sm-10 presta-colonne presta-red">
+              
               <h3 className="title-colonne">ACCOMPAGNEMENT PERSONNALISÉ</h3>
+              <br/>
               <hr/>
+              <br/>
               <p>Votre cheval a des problèmes de comportement que vous aimeriez résoudre ? Vous avez envie de développer une relation de complicité avec lui ?<br/><br/>
               Je vous accompagne dans la résolution des problématiques comportementales de votre cheval et vous aide à renforcer votre relation de complicité avec lui !<br/><br/>
               N'hésitez pas à me contacter pour que l'on puisse en discuter !</p>
               <div className="prix">50€ par heure</div>
               <a className="btn btn-see-more">En savoir plus</a>
             </div>
-            <div className="col-md-5 col-sm-10 presta-colonne presta-green">
+            <div className="col-md-6 col-sm-10 presta-colonne presta-green">
+              <span className="hover-colonne">Activité enfants</span>
               <h3 className="title-colonne">FUNNY-PONY</h3>
+              <br/>
               <hr/>
+              <br/>
               <p>Vous souhaitez faire découvrir le monde des poneys à votre enfant ? Je vous propose des  ½  journées en immersion avec les poneys !<br/><br/>
-                <span className="underline bold text-align-center">Au programme :</span><br/><br/>
+                <div className="underline bold text-align-center">Au programme :</div><br/>
                 <ul>
                   <li>Quizz sur la vie du poney</li>
                   <li>Brossage et gratouilles</li>
@@ -107,7 +113,7 @@ const LandingPage = () => {
                   <li>Apprentissage des tours de cirque <br/> (coucher, assis, donne la patte, ...)</li>
                 </ul>
               </p>
-              <div className="prix">30€ par enfant (3h d'activité)</div>
+              <div className="prix">30€ par enfant (2h d'activité)</div>
               <a className="btn btn-see-more">En savoir plus</a>
             </div>
           </div>
@@ -118,10 +124,12 @@ const LandingPage = () => {
           <div className="symbole-quote">
             ""
           </div>
+          <br/>
           <p className="testimony-text">
           Chloé est une personne bienveillante qui s'adapte au couple mais surtout à l'animal.
           Le suivi derrière est lui aussi très bienveillant et toujours dans l'encouragement. En deux semaines mon cheval réapprend à s'exprimer et je ne pouvais pas avoir meilleur cadeau !
           </p>
+          <br/>
           <div className="testimony-name">
             - Inès
           </div>
@@ -130,10 +138,12 @@ const LandingPage = () => {
           <div className="symbole-quote">
             ""
           </div>
+          <br/>
           <p className="testimony-text">
             J'ai fait appel à Chloé pour aider ma fille de 15 ans à mieux comprendre son cheval et ainsi à mieux s'en occuper et à prendre du plaisir. 
             Ses conseils et son soutien ont beaucoup apportés et lui ont permis de progresser, merci encore à toi Chloé !
           </p>
+          <br/>
           <div className="testimony-name">
             - Cécile
           </div>
@@ -142,10 +152,12 @@ const LandingPage = () => {
           <div className="symbole-quote">
             ""
           </div>
+          <br/>
           <p className="testimony-text">
             Chloé a récupéré ma jument sauvage pour rééducation, jument que d'autres pros jugeaient comme irrécupérable. 
             Elle est actuellement en énorme évolution, et je n'ai aucun doute sur le fait qu'elle va encore bien évoluer, grandir et devenir une incroyable jument !
           </p>
+          <br/>
           <div className="testimony-name">
             - Andréa
           </div>
@@ -154,7 +166,7 @@ const LandingPage = () => {
       <div className="container container-discute">
         <div className="row">
           <div className="col-12 block-discute">
-            <h1>Discutons-en !</h1>
+            <h1 className="extra-title">Discutons-en !</h1>
             <p className="text-important">
               Quelque soit votre besoin, n'hésitez pas à me contacter.<br/>Je serai ravie de vous aider à avancer avec votre cheval !
             </p>

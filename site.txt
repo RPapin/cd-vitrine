@@ -1,0 +1,8 @@
+Navbar :
+Logo a decaler a droite + changer l'image cf wix 
+Grossir les titre
+
+Landing page :
+Grossir btn me contacter
+recopie le wix
+Plus de couleur

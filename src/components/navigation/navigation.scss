@@ -1,3 +1,6 @@
+.navigation-container {
+    padding: 0 15%;
+}
 #logo-dessin{
     max-height: 100px;
 }
@@ -12,6 +15,8 @@
 }
 .nav-link {
     color: #000;
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 .nav-link:hover {
     color: #b35c7f!important;

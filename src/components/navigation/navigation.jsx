@@ -23,7 +23,7 @@ export const Navigation = (props) => {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light p-3">
-      <div className="container-fluid">
+      <div className="container-fluid navigation-container">
         <a className="navbar-brand" href="#">
           <img
             src="img/logo_dessin.png"

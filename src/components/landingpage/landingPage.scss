@@ -40,13 +40,38 @@
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
+.hover-colonne {
+  font-family: permanentMarker;
+  position: absolute;
+  color: #82cdb1;
+  border: 5px solid #82cdb269;
+  border-radius: 15px;
+  height: 40px;
+  top: -20px;
+  text-align: center;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 22;
+  background-color: #fff;
+  letter-spacing: 0.15em;
+}
 .presta-colonne {
+  position: relative;
   border: 1px solid #b35c7f;
   padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  padding: 3rem;
+  width: 25%;
+  h3 {
+    text-align: center;
+  }
+  hr {
+    width: 50%;
+  }
   .title-colonne {
     color: #b35c7f;
   }
@@ -58,9 +83,11 @@
   }
   .prix {
     margin: 1rem 0 2rem 0;
+    font-weight: bold;
   }
 }
 .presta-red {
+  margin-right: 2rem;
   .btn-see-more {
     color:#fff;
     background-color: #b35c7f;
@@ -71,6 +98,7 @@
   }
 }
 .presta-green {
+  margin-left: 2rem;
   .btn-see-more {
     color:#fff;
     background-color: #82cdb1;
@@ -88,13 +116,15 @@
   justify-content: space-around;
   display: flex;
   flex-direction: column;
-  padding: 5rem 6rem;
+  padding: 6rem 8rem;
+  text-align: center;
   .symbole-quote {
     color: #FF6161;
   }
   .testimony-name {
     font-size: 1.5rem;
     color: #FF6161;
+    font-style: italic;
   }
 }
 .container-discute {
@@ -110,7 +140,21 @@
   p {
     margin: 4rem 0;
   }
-  
+}
+.texte-bloc {
+  text-align: justify;
+}
+.texte-bloc.left {
+  padding: 0 4rem 0 0;
+}
+.texte-bloc.right {
+  padding: 0 0 0 4rem;
+}
+.text-align-center {
+  text-align: center;
+}
+.extra-title {
+  font-size: 56px;
 }
 // Tablette
 @media (max-width: 1220px) and (min-width: 768px) {
@@ -120,10 +164,16 @@
   .texte-bloc {
     padding: 1rem;
   }
+  .presta-colonne {
+    width: 40%;
+  }
 }
 // Mobile
 @media (max-width: 768px) {
-  .texte-bloc {
+  .texte-bloc.left {
+    padding: 1rem;
+  }
+  .texte-bloc.right {
     padding: 1rem;
   }
   .rigth-side-header {
@@ -140,8 +190,10 @@
   }
   .presta-colonne {
     margin: 0 0 2rem;
+    width: 90%;
   }
   .testimony-block {
     padding: 2rem 2rem;
   }
+
 }

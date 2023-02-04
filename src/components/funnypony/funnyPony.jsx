@@ -58,7 +58,7 @@ const FunnyPony = () => {
       );
   };
   return (
-    <div className="">
+    <div className="full-container-funnypony">
       {showToast && <Snackbar showToast={showToast} />}
       <div className="row g-0">
         <div

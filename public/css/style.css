@@ -19,7 +19,7 @@ html {
   font-family: avenirLight, "Open Sans", sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
-  color: #777;
+  color: #000;
   font-weight: 400;
   width: 100% !important;
   height: 100% !important;
@@ -75,14 +75,14 @@ ol {
 }
 hr {
   margin: auto;
-  height: 2px;
+  height: 1px;
   width: 20rem;
   text-align: center;
   position: relative;
   background: #b35c7f;
   margin-bottom: 20px;
   border: 0;
-
+  opacity: 1;
 }
 
 /* Navigation */
